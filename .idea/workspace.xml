@@ -1,7 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="" />
+    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/brittanychiang.com.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdn-cgi/l/email-protection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalicd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Boldd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italicd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalicd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Lightd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalicd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Mediumd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regulard41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/emojis/pointing-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/emojis/pointright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/emojis/rockon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/emojis/technologist1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/emojis/wave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/featured/blistabloc/blistabloc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/featured/blistabloc/blistabloc1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/featured/interventions/interventions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/featured/interventions/interventions1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/featured/screentime/blistabloc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/featured/screentime/screentime1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/featured/screentime/screentime3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/featured/screentime/screentime4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/codepen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/switch/moon-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/switch/moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/switch/sun-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/switch/sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainNull.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume2018.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpkg.com/scrollreveal@3.4.0/dist/scrollreveal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,42 +99,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8160">
-              <caret line="480" column="14" selection-end-line="553" />
+            <state relative-caret-position="516">
+              <caret line="547" selection-start-line="547" selection-end-line="547" />
               <folding>
                 <element signature="e#2912#2917#0" expanded="true" />
                 <element signature="e#3879#3886#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret column="21931" selection-start-column="21931" selection-end-column="21931" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="676" selection-start-line="2" selection-start-column="676" selection-end-line="2" selection-end-column="676" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainNull.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mainNull.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="562" column="22" selection-start-line="562" selection-start-column="22" selection-end-line="562" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -81,8 +142,8 @@
         <option value="$PROJECT_DIR$/enc.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/mainNull.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -107,18 +168,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="shahariar.ml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shahariar.ml" type="462c0819:PsiDirectoryNode" />
+              <item name="git.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git.io" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,6 +225,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -197,6 +259,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="7" lean-forward="true" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="e#2912#2917#0" expanded="true" />
+            <element signature="e#3879#3886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8160">
           <caret line="480" column="14" lean-forward="true" selection-end-line="553" />
           <folding>
@@ -206,27 +279,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret column="21931" selection-start-column="21931" selection-end-column="21931" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="676" selection-start-line="2" selection-start-column="676" selection-end-line="2" selection-end-column="676" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9554">
-          <caret line="562" column="22" selection-start-line="562" selection-start-column="22" selection-end-line="562" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/mainNull.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -238,13 +293,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20196">
-          <caret line="1188" selection-start-line="1188" selection-end-line="1188" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
     <entry file="file://$PROJECT_DIR$/../../sadeka/juliangarnier.com/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -252,20 +301,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" selection-start-line="78" selection-end-line="86" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9469">
-          <caret line="557" column="35" selection-end-line="590" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/mainNull.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10030">
@@ -277,27 +314,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20196">
-          <caret line="1188" selection-start-line="1188" selection-end-line="1188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" selection-start-line="78" selection-end-line="86" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9469">
-          <caret line="557" column="35" selection-end-line="590" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/mainNull.html" />
     <entry file="file://$PROJECT_DIR$/../../sadeka/juliangarnier.com/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -316,27 +335,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" selection-start-line="78" selection-end-line="86" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9469">
-          <caret line="557" column="35" lean-forward="true" selection-end-line="590" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20196">
-          <caret line="1188" lean-forward="true" selection-start-line="1188" selection-end-line="1188" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/mainNull.html" />
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -348,13 +349,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6698">
-          <caret line="394" column="27" selection-end-line="500" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mainNull.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7718">
@@ -362,13 +357,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6698">
-          <caret line="394" column="27" selection-end-line="500" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mainNull.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8500">
@@ -376,13 +365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6698">
-          <caret line="394" column="27" lean-forward="true" selection-end-line="500" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mainNull.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
@@ -415,24 +398,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="676" selection-start-line="2" selection-start-column="676" selection-end-line="2" selection-end-column="676" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret column="21931" selection-start-column="21931" selection-end-column="21931" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8160">
-          <caret line="480" column="14" selection-end-line="553" />
+        <state relative-caret-position="516">
+          <caret line="547" selection-start-line="547" selection-end-line="547" />
           <folding>
             <element signature="e#2912#2917#0" expanded="true" />
             <element signature="e#3879#3886#0" expanded="true" />
@@ -440,12 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="562" column="22" selection-start-line="562" selection-start-column="22" selection-end-line="562" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mainNull.html" />
   </component>
 </project>
