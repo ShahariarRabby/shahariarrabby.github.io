@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subPage/achievement.html" beforeDir="false" afterPath="$PROJECT_DIR$/subPage/achievement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume2018.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/resume2018.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/subPage/achievement.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
-              <caret line="279" lean-forward="true" selection-start-line="279" selection-end-line="279" />
+              <caret line="279" selection-start-line="279" selection-end-line="279" />
             </state>
           </provider>
         </entry>
@@ -80,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/subPage/publication.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2270">
-              <caret line="168" column="48" lean-forward="true" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
+              <caret line="168" column="48" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -89,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/subPage/certification.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="54" lean-forward="true" selection-end-line="358" />
+              <caret line="54" selection-end-line="358" />
             </state>
           </provider>
         </entry>
@@ -143,7 +142,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="960" />
     <option name="y" value="110" />
     <option name="width" value="960" />
@@ -242,7 +241,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1409396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -334,14 +332,14 @@
     <entry file="file://$PROJECT_DIR$/subPage/certification.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="54" lean-forward="true" selection-end-line="358" />
+          <caret line="54" selection-end-line="358" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/subPage/publication.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2270">
-          <caret line="168" column="48" lean-forward="true" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
+          <caret line="168" column="48" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -364,7 +362,7 @@
     <entry file="file://$PROJECT_DIR$/subPage/achievement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="279" lean-forward="true" selection-start-line="279" selection-end-line="279" />
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
         </state>
       </provider>
     </entry>
