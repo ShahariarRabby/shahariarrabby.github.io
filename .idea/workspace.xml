@@ -2,111 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/brittanychiang.com.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cdn-cgi/l/email-protection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-BoldItalicd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Boldd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Italicd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-LightItalicd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Lightd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-MediumItalicd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Mediumd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/apercu/Apercu-Regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emojis/pointing-up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emojis/pointright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emojis/rockon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emojis/technologist1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/emojis/wave.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/featured/blistabloc/blistabloc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/featured/blistabloc/blistabloc1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/featured/interventions/interventions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/featured/interventions/interventions1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/featured/screentime/blistabloc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/featured/screentime/screentime1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/featured/screentime/screentime3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/featured/screentime/screentime4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/social/codepen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/social/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/social/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/social/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/social/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/social/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/social/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/switch/moon-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/switch/moon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/switch/sun-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/switch/sun.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainNull.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resume2018.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unpkg.com/scrollreveal@3.4.0/dist/scrollreveal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/phone-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subPage/publication.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v2/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="855428427">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="7" />
+          <entry key="png" value="2" />
+          <entry key="svg" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="7" />
+          <entry key="Image" value="2" />
+          <entry key="SVG" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="245" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="245" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="547" selection-start-line="547" selection-end-line="547" />
+            <state relative-caret-position="350">
+              <caret line="565" column="13" selection-start-line="565" selection-start-column="13" selection-end-line="565" selection-end-column="13" />
               <folding>
-                <element signature="e#2912#2917#0" expanded="true" />
-                <element signature="e#3879#3886#0" expanded="true" />
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/subPage/publication.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="161" selection-start-line="161" selection-end-line="170" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="145" column="7" lean-forward="true" selection-end-line="147" />
+              <folding>
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -143,6 +122,9 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/mainNull.html" />
+        <option value="$PROJECT_DIR$/v2/index.html" />
+        <option value="$PROJECT_DIR$/v1/index.html" />
+        <option value="$PROJECT_DIR$/subPage/publication.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -152,9 +134,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
@@ -168,18 +147,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="git.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git.io" type="462c0819:PsiDirectoryNode" />
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="emojis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="subPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="unpkg.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="unpkg.com" type="462c0819:PsiDirectoryNode" />
+              <item name="scrollreveal@3.4.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="unpkg.com" type="462c0819:PsiDirectoryNode" />
+              <item name="scrollreveal@3.4.0" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,6 +208,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shaha\Desktop\shahariarrabby.github.io\img\social" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,7 +227,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="mainNull.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/brittanychiang.com/mainNull.html" />
+    <configuration name="mainNull.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/brittanychiang.com/mainNull.html">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.mainNull.html" />
@@ -227,27 +253,27 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1373698" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13892618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,132 +283,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="7" lean-forward="true" selection-end-line="43" selection-end-column="7" />
-          <folding>
-            <element signature="e#2912#2917#0" expanded="true" />
-            <element signature="e#3879#3886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8160">
-          <caret line="480" column="14" lean-forward="true" selection-end-line="553" />
-          <folding>
-            <element signature="e#2912#2917#0" expanded="true" />
-            <element signature="e#3879#3886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/mainNull.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-          <folding>
-            <element signature="e#2912#2917#0" expanded="true" />
-            <element signature="e#3879#3886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/../../sadeka/juliangarnier.com/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/mainNull.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10030">
-          <caret line="590" column="7" selection-start-line="590" selection-start-column="7" selection-end-line="590" selection-end-column="7" />
-          <folding>
-            <element signature="e#2912#2917#0" expanded="true" />
-            <element signature="e#3879#3886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/mainNull.html" />
-    <entry file="file://$PROJECT_DIR$/../../sadeka/juliangarnier.com/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10030">
-          <caret line="590" column="7" selection-start-line="590" selection-start-column="7" selection-end-line="590" selection-end-column="7" />
-          <folding>
-            <element signature="e#2912#2917#0" expanded="true" />
-            <element signature="e#3879#3886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/mainNull.html" />
-    <entry file="file://$PROJECT_DIR$/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#2912#2917#0" expanded="true" />
-            <element signature="e#3879#3886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7718">
-          <caret line="454" column="58" selection-start-line="454" selection-start-column="58" selection-end-line="454" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8500">
-          <caret line="500" lean-forward="true" selection-start-line="500" selection-end-line="500" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" selection-start-line="73" selection-end-line="73" selection-end-column="293" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/emojis/technologist.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Brittany Chiang _ Front End Software Engineer1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="57" lean-forward="true" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Brittany Chiang _ Front End Software Engineer1.html" />
     <entry file="file://$PROJECT_DIR$/enc.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
@@ -391,26 +295,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../sadeka/juliangarnier.com/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/sadeka/juliangarnier.com/index.html" />
     <entry file="file://$PROJECT_DIR$/js/main.js" />
     <entry file="file://$PROJECT_DIR$/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/mainNull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="547" selection-start-line="547" selection-end-line="547" />
+        <state relative-caret-position="661">
+          <caret line="109" column="26" selection-end-line="585" />
           <folding>
-            <element signature="e#2912#2917#0" expanded="true" />
-            <element signature="e#3879#3886#0" expanded="true" />
+            <element signature="e#3182#3187#0" expanded="true" />
+            <element signature="e#4463#4470#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainNull.html" />
+    <entry file="file://$PROJECT_DIR$/v2/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="145" column="7" lean-forward="true" selection-end-line="147" />
+          <folding>
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/emojis/pointing-up.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/emojis/rockon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/social/email.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/social/facebook.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/social/linkedin.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subPage/publication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="161" selection-start-line="161" selection-end-line="170" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="565" column="13" selection-start-line="565" selection-start-column="13" selection-end-line="565" selection-end-column="13" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
