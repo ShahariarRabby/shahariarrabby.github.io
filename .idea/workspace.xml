@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subPage/achievement.html" beforeDir="false" afterPath="$PROJECT_DIR$/subPage/achievement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subPage/certification.html" beforeDir="false" afterPath="$PROJECT_DIR$/subPage/certification.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subPage/publication.html" beforeDir="false" afterPath="$PROJECT_DIR$/subPage/publication.html" afterDir="false" />
@@ -16,12 +18,13 @@
     <session id="855428427">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,29 +43,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1599" />
+          <entry key="html" value="1684" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1599" />
+          <entry key="HTML" value="1684" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="634" column="13" lean-forward="true" selection-start-line="609" selection-end-line="635" />
+            <state relative-caret-position="272">
+              <caret line="234" column="110" selection-start-line="234" selection-start-column="110" selection-end-line="234" selection-end-column="110" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -76,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subPage/achievement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="283" selection-start-line="283" selection-end-line="283" />
+            <state relative-caret-position="272">
+              <caret line="58" column="102" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="102" />
               <folding>
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -88,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subPage/publication.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="171" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="187">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -97,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subPage/certification.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="365" column="13" lean-forward="true" selection-start-line="365" selection-start-column="13" selection-end-line="365" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="22" column="30" selection-start-line="22" selection-end-line="23" />
               <folding>
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -146,10 +147,10 @@
         <option value="$PROJECT_DIR$/v2/index.html" />
         <option value="$PROJECT_DIR$/v1/index.html" />
         <option value="$PROJECT_DIR$/subPage/achivement.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/subPage/achievement.html" />
         <option value="$PROJECT_DIR$/subPage/publication.html" />
         <option value="$PROJECT_DIR$/subPage/certification.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -260,7 +261,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14697987" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14899328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -341,39 +342,10 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/subPage/achivement.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="634" column="13" lean-forward="true" selection-start-line="609" selection-end-line="635" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subPage/achievement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="283" selection-start-line="283" selection-end-line="283" />
-          <folding>
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/subPage/publication.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="187">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -382,9 +354,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subPage/certification.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="365" column="13" lean-forward="true" selection-start-line="365" selection-start-column="13" selection-end-line="365" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="22" column="30" selection-start-line="22" selection-end-line="23" />
           <folding>
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subPage/achievement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="58" column="102" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="102" />
+          <folding>
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="234" column="110" selection-start-line="234" selection-start-column="110" selection-end-line="234" selection-end-column="110" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
