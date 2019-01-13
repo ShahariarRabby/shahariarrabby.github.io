@@ -440,7 +440,7 @@ strong {
     text-indent: -9999px;
     width: 45px;
     height: 25px;
-    background: grey;
+    background: #007bff;
     display: block;
     border-radius: 100px;
     position: relative
@@ -469,7 +469,7 @@ strong {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex-pack: distribute;
+    /*-ms-flex-pack: distribute;*/
     justify-content: space-around;
     max-width: 1440px;
     margin: 0 auto
