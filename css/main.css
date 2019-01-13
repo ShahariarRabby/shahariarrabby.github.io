@@ -1239,13 +1239,13 @@ strong {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   /*background: #007dfc;*/
-    background: -webkit-linear-gradient(top, #007bff, #41c6fc);
-    background: linear-gradient(to bottom, #007bff, #41c6fc);
+    background: -webkit-linear-gradient(top, #007bff, #bae67e);
+    background: linear-gradient(to bottom, #007bff, #bae67e);
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-   background: -webkit-linear-gradient(top, #41c6fc, #007bff);
-    background: linear-gradient(to bottom, #41c6fc, #007bff);
+   background: -webkit-linear-gradient(top, #bae67e, #007bff);
+    background: linear-gradient(to bottom, #bae67e, #007bff);
 }
