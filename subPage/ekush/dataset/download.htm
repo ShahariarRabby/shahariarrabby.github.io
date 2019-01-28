@@ -1,0 +1,84 @@
+<div class="columnApi">
+  <h1>Tools</h1>
+  <h2><a href="https://github.com/cocodataset/cocoapi" target="_blank">COCO API</a></h2>
+</div>
+<div class="columnDownloads">
+  <h1>Images</h1>
+  <p class="fontSmall">
+    <a href="http://images.cocodataset.org/zips/train2014.zip">2014 Train images [83K/13GB]</a><br/>
+    <a href="http://images.cocodataset.org/zips/val2014.zip">2014 Val images [41K/6GB]</a><br/>
+    <a href="http://images.cocodataset.org/zips/test2014.zip">2014 Test images [41K/6GB]</a><br/>
+    <a href="http://images.cocodataset.org/zips/test2015.zip">2015 Test images [81K/12GB]</a><br/>
+    <a href="http://images.cocodataset.org/zips/train2017.zip">2017 Train images [118K/18GB]</a><br/>
+    <a href="http://images.cocodataset.org/zips/val2017.zip">2017 Val images [5K/1GB]</a><br/>
+    <a href="http://images.cocodataset.org/zips/test2017.zip">2017 Test images [41K/6GB]</a><br/>
+    <a href="http://images.cocodataset.org/zips/unlabeled2017.zip">2017 Unlabeled images [123K/19GB]</a><br/>
+  </p>
+</div>
+<div class="columnDownloads">
+  <h1>Annotations</h1>
+  <p class="fontSmall">
+    <a href="http://images.cocodataset.org/annotations/annotations_trainval2014.zip">2014 Train/Val annotations [241MB]</a><br/>
+    <a href="http://images.cocodataset.org/annotations/image_info_test2014.zip">2014 Testing Image info [1MB]</a><br/>
+    <a href="http://images.cocodataset.org/annotations/image_info_test2015.zip">2015 Testing Image info [2MB]</a><br/>
+    <a href="http://images.cocodataset.org/annotations/annotations_trainval2017.zip">2017 Train/Val annotations [241MB]</a><br/>
+    <a href="http://images.cocodataset.org/annotations/stuff_annotations_trainval2017.zip">2017 Stuff Train/Val annotations [1.1GB]</a><br/>
+    <a href="http://images.cocodataset.org/annotations/panoptic_annotations_trainval2017.zip">2017 Panoptic Train/Val annotations [821MB]</a><br/>
+    <a href="http://images.cocodataset.org/annotations/image_info_test2017.zip">2017 Testing Image info [1MB]</a><br/>
+    <a href="http://images.cocodataset.org/annotations/image_info_unlabeled2017.zip">2017 Unlabeled Image info [4MB]</a><br/>
+  </p>
+</div>
+<h1>1. Overview</h1>
+
+<p>Which dataset splits should you download? Each year's images are associated with different tasks. Specifically:</p>
+<div class="json">
+  <div class="jsonktxt">2014 Train/Val</div><div class="jsonvtxt"><a href="#detection-2015">Detection 2015</a>, <a href="#captions-2015">Captioning 2015</a>, <a href="#detection-2016">Detection 2016</a>, <a href="#keypoints-2016">Keypoints 2016</a></div>
+  <div class="jsonktxt">2014 Testing  </div><div class="jsonvtxt"><a href="#captions-2015">Captioning 2015</a></div>
+  <div class="jsonktxt">2015 Testing  </div><div class="jsonvtxt"><a href="#detection-2015">Detection 2015</a>, <a href="#detection-2016">Detection 2016</a>, <a href="#keypoints-2016">Keypoints 2016</a></div>
+  <div class="jsonktxt">2017 Train/Val/Test<br/>&nbsp</div><div class="jsonvtxt"><a href="#detection-2017">Detection 2017</a>, <a href="#keypoints-2017">Keypoints 2017</a>, <a href="#stuff-2017">Stuff 2017</a>,<br/><a href="#detection-2018">Detection 2018</a>, <a href="#keypoints-2018">Keypoints 2018</a>, <a href="#stuff-2018">Stuff 2018</a>, <a href="#panoptic-2018">Panoptic 2018</a></div>
+  <div class="jsonktxt">2017 Unlabeled</div><div class="jsonvtxt fontBlue">[optional data for any competition]</div>
+</div>
+<p class="fontSubtle">If you are submitting to a 2017 or 2018 task, you only need to download the 2017 images. You can disregard earlier splits. Note: the split year refers to the year the image splits were released, not the year in which the annotations were released.</p>
+<p>For efficiently downloading the images, we recommend using <a href="#gsutil-rsync" data-toggle="collapse" aria-expanded="false" aria-controls="gsutil-rsync"><i class="glyphicon glyphicon-chevron-right"></i><i class="glyphicon glyphicon-chevron-down"></i>gsutil rsync</a> to avoid the download of large zip files. Please follow the instructions in the <a href="https://github.com/cocodataset/cocoapi" target="_blank">COCO API Readme</a> to setup the downloaded COCO data (the images and annotations should go in coco/images/ and coco/annotations/). By downloading this dataset, you agree to our <a href="#termsofuse">Terms of Use</a>.</p>
+<div id="gsutil-rsync" class="collapse">
+  <div class="json">
+    <p>Our data is hosted on Google Cloud Platform (GCP). <span class="fontMono"> gsutil</span> provides tools for efficiently accessing this data. You do <i>not</i> need a GCP account to use <span class="fontMono"> gsutil</span>. Instructions for downloading the data are as follows:</p>
+    <div class="jsonktxt">(1) Install gsutil via:</div><div class="jsonvtxt fontBlue">curl https://sdk.cloud.google.com | bash </div>
+    <div class="jsonktxt">(2) Make local dir:</div><div class="jsonvtxt fontBlue">mkdir val2017</div>
+    <div class="jsonktxt">(3) Synchronize via:</div><div class="jsonvtxt fontBlue">gsutil -m rsync gs://images.cocodataset.org/val2017 val2017</div>
+    <p>The splits are available for download via rsync are: train2014, val2014, test2014, test2015, train2017, val2017, test2017, unlabeled2017. Simply replace 'val2017' with the split you wish to download and repeat steps (2)-(3). Finally, you can also download all the annotation zip files via:</p>
+    <div class="jsonktxt">(4) Get annotations: </div><div class="jsonvtxt fontBlue">gsutil -m rsync gs://images.cocodataset.org/annotations [localdir]</div>
+    <p>The download is multi-threaded, you can control other options of the download as well (see <a href="https://cloud.google.com/storage/docs/gsutil/commands/rsync">gsutil rsync</a>). Please do not contact us with help
+    <a href="https://cloud.google.com/storage/docs/gsutil_install">installing gsutil</a> (we note only that you do not need to run <span class="fontMono"> gcloud init</span>).</p>
+  </div>
+</div>
+<p><b>2018 Update:</b> Detection and keypoint data is unchanged. New in 2018, complete stuff and panoptic annotations for all 2017 images are available. Note: <i>if you downloaded the stuff annotations prior to 06/17/2018, please re-download.</i></p>
+<p><b>2017 Update:</b> The main change in 2017 is that instead of an 83K/41K train/val split, based on community feedback the split is now 118K/5K for train/val. The same exact images are used, and no new annotations for detection/keypoints are provided. However, new in 2017 are stuff annotations on 40K train images (subset of the full 118K train images from 2017) and 5K val images. Also, for testing, in 2017 the test set only has two splits (dev / challenge), instead of the four splits (dev / standard / reserve / challenge) used in previous years. Finally, new in 2017 we are releasing 120K unlabeled images from COCO that follow the same class distribution as the labeled images; this may be useful for semi-supervised learning on COCO.</p>
+
+<h1>2. COCO API</h1>
+<p>The COCO API assists in loading, parsing, and visualizing annotations in COCO. The API supports multiple annotation formats (please see the <a href="#format-data">data format</a> page). For additional details see: <a href="https://github.com/cocodataset/cocoapi/blob/master/MatlabAPI/CocoApi.m" target="_blank">CocoApi.m</a>, <a href="https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/coco.py" target="_blank">coco.py</a>, and <a href="https://github.com/cocodataset/cocoapi/blob/master/LuaAPI/CocoApi.lua" target="_blank">CocoApi.lua</a> for Matlab, Python, and Lua code, respectively, and also the <a href="https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocoDemo.ipynb" target="_blank">Python API demo</a>.</p>
+<div class="json">
+  <div>Throughout the API "ann"=annotation, "cat"=category, and "img"=image.</div>
+  <div class="jsonkfunc">getAnnIds</div><div class="jsonvtxt">Get ann ids that satisfy given filter conditions.</div>
+  <div class="jsonkfunc">getCatIds</div><div class="jsonvtxt">Get cat ids that satisfy given filter conditions.</div>
+  <div class="jsonkfunc">getImgIds</div><div class="jsonvtxt">Get img ids that satisfy given filter conditions.</div>
+  <div class="jsonkfunc">loadAnns</div><div class="jsonvtxt">Load anns with the specified ids.</div>
+  <div class="jsonkfunc">loadCats</div><div class="jsonvtxt">Load cats with the specified ids.</div>
+  <div class="jsonkfunc">loadImgs</div><div class="jsonvtxt">Load imgs with the specified ids.</div>
+  <div class="jsonkfunc">loadRes</div><div class="jsonvtxt">Load algorithm results and create API for accessing them.</div>
+  <div class="jsonkfunc">showAnns</div><div class="jsonvtxt">Display the specified annotations.</div>
+</div>
+
+<h1>3. MASK API</h1>
+<p>COCO provides segmentation masks for every object instance. This creates two challenges: storing masks compactly and performing mask computations efficiently. We solve both challenges using a custom Run Length Encoding (RLE) scheme. The size of the RLE representation is proportional to the number of boundaries pixels of a mask and operations such as area, union, or intersection can be computed efficiently directly on the RLE. Specifically, assuming fairly simple shapes, the RLE representation is O(&radic;n) where n is number of pixels in the object, and common computations are likewise O(&radic;n). Naively computing the same operations on the decoded masks (stored as an array) would be O(n).</p>
+<p>The MASK API provides an interface for manipulating masks stored in RLE format. The API is defined below, for additional details see: <a href="https://github.com/cocodataset/cocoapi/blob/master/MatlabAPI/MaskApi.m" target="_blank">MaskApi.m</a>, <a href="https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/mask.py" target="_blank">mask.py</a>, or <a href="https://github.com/cocodataset/cocoapi/blob/master/LuaAPI/MaskApi.lua" target="_blank">MaskApi.lua</a>. Finally, we note that a majority of ground truth masks are stored as polygons (which are quite compact), these polygons are converted to RLE when needed.</p>
+<div class="json">
+  <div class="jsonkfunc">encode</div><div class="jsonvtxt">Encode binary masks using RLE.</div>
+  <div class="jsonkfunc">decode</div><div class="jsonvtxt">Decode binary masks encoded via RLE.</div>
+  <div class="jsonkfunc">merge</div><div class="jsonvtxt">Compute union or intersection of encoded masks.</div>
+  <div class="jsonkfunc">iou</div><div class="jsonvtxt">Compute intersection over union between masks.</div>
+  <div class="jsonkfunc">area</div><div class="jsonvtxt">Compute area of encoded masks.</div>
+  <div class="jsonkfunc">toBbox</div><div class="jsonvtxt">Get bounding boxes surrounding encoded masks.</div>
+  <div class="jsonkfunc">frBbox</div><div class="jsonvtxt">Convert bounding boxes to encoded masks.</div>
+  <div class="jsonkfunc">frPoly</div><div class="jsonvtxt">Convert polygon to encoded mask.</div>
+</div>

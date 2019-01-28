@@ -1,0 +1,64 @@
+<script>$(function(){initLeaderboardDetection()});</script>
+<h1>Detection Leaderboard</h1>
+<ul class="nav nav-pills ldbdTabs fontBigger">
+  <li class="ldbdTabHead">BBOX:</li>
+  <li class="active"><a data-toggle="tab" id="a_bbox_dev2015">Dev</a></li>
+  <li><a data-toggle="tab" id="a_bbox_standard2015">Standard15</a></li>
+  <li><a data-toggle="tab" id="a_bbox_challenge2015">Chal15</a></li>
+  <li><a data-toggle="tab" id="a_bbox_challenge2016">Chal16</a></li>
+  <li><a data-toggle="tab" id="a_bbox_challenge2017">Chal17</a></li>
+  <br/>
+  <li class="ldbdTabHead">SEGM:</li>
+  <li><a data-toggle="tab" id="a_segm_dev2015">Dev</a></li>
+  <li><a data-toggle="tab" id="a_segm_standard2015">Standard15</a></li>
+  <li><a data-toggle="tab" id="a_segm_challenge2015">Chal15</a></li>
+  <li><a data-toggle="tab" id="a_segm_challenge2016">Chal16</a></li>
+  <li><a data-toggle="tab" id="a_segm_challenge2017">Chal17</a></li>
+  <li><a data-toggle="tab" id="a_segm_challenge2018">Chal18</a></li>
+</ul>
+<div class="tab-content" id="ldbdDetection">
+  <table class="table order-column hover fontSmall ldbdData">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+        <th>AP</th>
+        <th>AP<sup>50</sup></th>
+        <th>AP<sup>75</sup></th>
+        <th>AP<sup>S</sup></th>
+        <th>AP<sup>M</sup></th>
+        <th>AP<sup>L</sup></th>
+        <th>AR<sup>1</sup></th>
+        <th>AR<sup>10</sup></th>
+        <th>AR<sup>100</sup></th>
+        <th>AR<sup>S</sup></th>
+        <th>AR<sup>M</sup></th>
+        <th>AR<sup>L</sup></th>
+        <th>date</th>
+      </tr>
+    </thead>
+  </table>
+  <h1>Metrics</h1>
+  <div class="json fontMono">
+    <div class="jsonreg"><b>Average Precision (AP):</b></div>
+    <div class="jsonk">AP</div><div class="jsonv">% AP at IoU=.50:.05:.95 <b>(primary challenge metric)</b></div>
+    <div class="jsonk">AP<sup>IoU=.50</sup></div><div class="jsonv">% AP at IoU=.50 (PASCAL VOC metric)</div>
+    <div class="jsonk">AP<sup>IoU=.75</sup></div><div class="jsonv">% AP at IoU=.75 (strict metric)</div>
+    <div class="jsonreg"><b>AP Across Scales:</b></div>
+    <div class="jsonk">AP<sup>small</sup></div><div   class="jsonv">% AP for small objects: area &lt; 32<sup>2</sup></div>
+    <div class="jsonk">AP<sup>medium</sup></div><div  class="jsonv">% AP for medium objects: 32<sup>2</sup> &lt; area &lt; 96<sup>2</sup></div>
+    <div class="jsonk">AP<sup>large</sup></div><div   class="jsonv">% AP for large objects: area &gt; 96<sup>2</sup></div>
+    <div class="jsonreg"><b>Average Recall (AR):</b></div>
+    <div class="jsonk">AR<sup>max=1</sup></div><div   class="jsonv">% AR given 1 detection per image </div>
+    <div class="jsonk">AR<sup>max=10</sup></div><div  class="jsonv">% AR given 10 detections per image</div>
+    <div class="jsonk">AR<sup>max=100</sup></div><div class="jsonv">% AR given 100 detections per image</div>
+    <div class="jsonreg"><b>AR Across Scales:</b></div>
+    <div class="jsonk">AR<sup>small</sup></div><div   class="jsonv">% AR for small objects: area &lt; 32<sup>2</sup></div>
+    <div class="jsonk">AR<sup>medium</sup></div><div  class="jsonv">% AR for medium objects: 32<sup>2</sup> &lt; area &lt; 96<sup>2</sup></div>
+    <div class="jsonk">AR<sup>large</sup></div><div   class="jsonv">% AR for large objects: area &gt; 96<sup>2</sup></div>
+  </div>
+  <p>
+    Please see the <a href="#detection-eval">evaluation</a> page for more detailed information about the metrics, and the <a href="#detection-2018">task</a> and <a href="#guidelines">guidelines</a> pages for more information about the detection task and dataset splits.
+    Note: leaderboard results are imported from <a href="https://competitions.codalab.org/competitions/5181" target="_blank">CodaLab Detection Server</a> and may not contain the latest results.
+  </p>
+</div>
