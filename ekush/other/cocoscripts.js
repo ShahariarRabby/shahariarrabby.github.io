@@ -45,9 +45,9 @@ function datasetTabNav() {
 var cocoPeople = {
   'TsungYiLin': {'name': 'AKM Shahariar Azad Rabby', 'full': '', 'short': '', 'url':'https://shahariarrabby.github.io'},
   'GenevievePatterson': {'name': 'Sadeka Haque', 'full': '', 'short': '', 'url':'https://sadekahaque.github.io/'},
-  'MatteoRonchi': {'name': 'Sayed Akter Hossine', 'full': 'Supervisor', 'short': 'Supervisor', 'url':'#'},
-  // 'YinCui': {'name': 'Yin Cui', 'full': 'Cornell Tech', 'short': 'Cornell Tech', 'url':'http://www.cs.cornell.edu/~ycui/'},
-  // 'MichaelMaire': {'name': 'Michael Maire', 'full': 'TTI-Chicago', 'short': 'TTI-Chicago', 'url':'http://ttic.uchicago.edu/~mmaire/'},
+  'YinCui': {'name': 'Sazidul Islam', 'full': '', 'short': '', 'url':'#'},
+  'MichaelMaire': {'name': 'Sheikh Abujar', 'full': '', 'short': '', 'url':'#'},
+  'MatteoRonchi': {'name': 'Sayed Akter Hossine', 'full': 'Supervisor', 'short': '', 'url':'#'},
   // 'SergeBelongie': {'name': 'Serge Belongie', 'full': 'Cornell Tech', 'short': 'Cornell Tech', 'url':'http://vision.cornell.edu/se3/people/serge-belongie/'},
   // 'LubomirBourdev': {'name': 'Lubomir Bourdev', 'full': 'WaveOne, Inc.', 'short': 'WaveOne, Inc.', 'url':'http://www.lubomir.org'},
   // 'RossGirshick': {'name': 'Ross Girshick', 'full': 'Facebook AI Research', 'short': 'FAIR', 'url':'http://www.cs.berkeley.edu/~rbg/'},
