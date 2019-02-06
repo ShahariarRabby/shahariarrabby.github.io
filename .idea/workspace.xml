@@ -1,288 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/captions-2015.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/captions-leaderboard.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/detection-2015.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/detection-2016.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/detection-2017.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/detection-2018.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/detection-eval.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/detection-leaderboard.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/download.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/download.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/explore.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/external.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/external.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/format-data.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/format-data.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/format-results.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/format-results.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/guidelines.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/guidelines.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/home.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/home.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/keypoints-2016.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/keypoints-2017.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/keypoints-2018.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/keypoints-eval.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/keypoints-leaderboard.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/overview.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/overview.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/panoptic-2018.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/panoptic-eval.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/panoptic-leaderboard.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/people.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/people.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/stuff-2017.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/stuff-2018.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/stuff-eval.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/stuff-leaderboard.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/termsofuse.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/termsofuse.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/upload.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/banner_eccv18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/captions-splash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/coco-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/coco-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/50.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/51.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/67.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/68.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/70.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/71.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/72.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/73.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/74.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/75.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/76.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/77.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/78.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/79.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/81.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/82.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/83.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/84.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/85.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/86.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/87.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/88.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/89.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/90.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/91.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/backpack.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/bike.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/blank.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/eye.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/frisbee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/hand.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/head.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/headlights.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/helicopter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/hotdog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/house.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/keyboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/license plate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/micro wave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/motorcycle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/mouth.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/nose.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/pan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/parkingmeter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/power.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/sandwich.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/scarf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/sentences.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/skateboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/skiis.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/snowboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/stapler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/steering.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/surfboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/teapot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/toothbrush.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/url.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/cocoicons/wheel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/densepose-splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/detection-analysis-all.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/detection-analysis-person.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/detection-splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/FM-IQA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/FOIL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/G_ref_dataset.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/VerSe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/coco-a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/coco-stuff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/coco_attr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/cocoa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/cocotext.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/densepose.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/image_placeholder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/imagenet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/pascal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/pascal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/ref_coco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/salicon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/salicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/speecoco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/stair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/vdialog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/visual_madlib.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/visualgenome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/external/vqa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/android-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/android-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/android-icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/android-icon-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/android-icon-36x36.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/android-icon-36x36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/android-icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/android-icon-48x48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/android-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/android-icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/android-icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/android-icon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-114x114.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-120x120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-152x152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-180x180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-57x57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-60x60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-76x76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/apple-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/browserconfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/favicon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/favicon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/ms-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/ms-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/ms-icon-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/ms-icon-150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/ms-icon-310x310.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/ms-icon-310x310.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/favicon/ms-icon-70x70.png" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/images/favicon/ms-icon-70x70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/keypoints-analysis-CMU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/keypoints-oks-person.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/keypoints-splash-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/keypoints-splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/mapillary-instance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/mapillary-panoptic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/panoptic-splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/AlexanderKirillov.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/DevaRamanan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/GenevievePatterson.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/HolgerCaesar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/IasonasKokkinos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/JamesHays.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/JasperUijlings.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/LarryZitnick.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/LorenzoPorzi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/LubomirBourdev.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/MatteoRonchi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/MichaelMaire.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/NataliaNeverova.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/OlgaRussakovsky.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/PeterKontschieder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/PietroPerona.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/PiotrDollar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/RizaAlpGuler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/RossGirshick.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/SamuelRotaBulo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/SergeBelongie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/TamaraBerg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/TsungYiLin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/VittorioFerrari.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/YanaWelinder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/people/YinCui.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/speakers/AndreasGeiger.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/sponsors-CVDF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/sponsors-GCP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/sponsors-MightyAI.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/sponsors-facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/sponsors-microsoft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/stuff-labelhierarchy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/images/stuff-splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/bbox_challenge2015.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/bbox_challenge2016.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/bbox_challenge2017.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/bbox_dev2015.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/bbox_standard2015.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/cap_c40.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/cap_c5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/cap_challenge2015.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/kpt_challenge2016.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/kpt_challenge2017.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/kpt_challenge2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/kpt_dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/kpt_standard.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/panoptic_challenge2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/panoptic_dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/segm_challenge2015.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/segm_challenge2016.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/segm_challenge2017.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/segm_challenge2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/segm_dev2015.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/segm_standard2015.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/stuff_challenge2017.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/stuff_dev2017.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/leaderboard/stuff_dev2018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/other/cocoscripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/other/cocoscripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/workshop/coco-mapillary-eccv-2018.html" beforeDir="false" />
-    </list>
+    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,102 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/people.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/termsofuse.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/captions-eval.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/download.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/external.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="127" lean-forward="true" selection-start-line="18" selection-start-column="127" selection-end-line="18" selection-end-column="127" />
-              <folding>
-                <element signature="e#1210#1237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/format-results.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/format-data.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/guidelines.htm">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/home.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="34" column="68" lean-forward="true" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ekush/dataset/overview.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -577,18 +201,17 @@
       <workItem from="1549027706980" duration="5789000" />
       <workItem from="1549388506346" duration="6750000" />
       <workItem from="1549397260119" duration="1564000" />
-      <workItem from="1549469704663" duration="6445000" />
+      <workItem from="1549469704663" duration="6994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26784000" />
+    <option name="totallyTimeSpent" value="27333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15771812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15771812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -602,7 +225,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33914208" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33914208" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -768,6 +391,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/people.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/termsofuse.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/captions-eval.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ekush/dataset/download.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -804,7 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ekush/dataset/home.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="309">
           <caret line="34" column="68" lean-forward="true" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
         </state>
       </provider>
@@ -813,32 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/termsofuse.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/captions-eval.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/people.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
