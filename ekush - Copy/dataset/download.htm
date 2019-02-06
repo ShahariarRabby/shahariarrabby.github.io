@@ -1,0 +1,32 @@
+<h1><a href="#">Download  CSV</a></h1>
+<p>We converted the whole Ekush dataset into CSV format to reduce I/O time. To convert the csv into image see the code bellow. </p>
+
+<div class="json">
+  <code>
+      # Library<br>
+      import pandas as pd<br>
+      import numpy as np<br>
+    <br>
+      # Load Data <br>
+      train = pd.read_csv("Data.csv")<br>
+    <br>
+      # Separating Data and Label<br>
+      Y_train = train["label"]<br>
+      X_train = train.drop(labels = ["label"],axis = 1)<br>
+    <br>
+      # Normalize the data<br>
+      X_train = X_train / 255.0<br>
+    <br>
+      X_train = X_train.values.reshape(-1,28,28,1)<br>
+  </code>
+
+
+  <!--<div class="jsonkfunc">encode</div><div class="jsonvtxt">Encode binary masks using RLE.</div>-->
+  <!--<div class="jsonkfunc">decode</div><div class="jsonvtxt">Decode binary masks encoded via RLE.</div>-->
+  <!--<div class="jsonkfunc">merge</div><div class="jsonvtxt">Compute union or intersection of encoded masks.</div>-->
+  <!--<div class="jsonkfunc">iou</div><div class="jsonvtxt">Compute intersection over union between masks.</div>-->
+  <!--<div class="jsonkfunc">area</div><div class="jsonvtxt">Compute area of encoded masks.</div>-->
+  <!--<div class="jsonkfunc">toBbox</div><div class="jsonvtxt">Get bounding boxes surrounding encoded masks.</div>-->
+  <!--<div class="jsonkfunc">frBbox</div><div class="jsonvtxt">Convert bounding boxes to encoded masks.</div>-->
+  <!--<div class="jsonkfunc">frPoly</div><div class="jsonvtxt">Convert polygon to encoded mask.</div>-->
+</div>
