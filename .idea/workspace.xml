@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/bootstrap-material-design-font/css/material.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/bootstrap-material-design-font/fonts/Material-Design-Icons64ea-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/bootstrap-material-design-font/fonts/Material-Design-Icons64ea-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/bootstrap-material-design-font/fonts/Material-Design-Icons64ea-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/bootstrap-material-design-font/fonts/Material-Design-Icons64ea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/bootstrap-material-design-font/fonts/Material-Design-Iconsd41d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/countdown/jquery.countdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/dropdown/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/dropdown/js/script.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/formoid/formoid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/images/mbr-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/mobirise/css/mbr-additional.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/mobirise3-blocks-plugin/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/mobirise3-blocks-plugin/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/smooth-scroll/smooth-scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/tether/tether.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/tether/tether.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/theme/css/animation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/theme/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/theme/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/touch-swipe/jquery.touch-swipe.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/typed/typed.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/web/assets/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/web/assets/mobirise-icons/mobirise-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/web/assets/mobirise-icons/mobirise-icons0e1c.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/web/assets/mobirise-icons/mobirise-icons0e1c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/web/assets/mobirise-icons/mobirise-icons0e1c.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/assets/web/assets/mobirise-icons/mobirise-icons0e1c.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/dataset/explore.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/explore.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ekush/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ekush/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,14 +31,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ekush/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2854">
-              <caret line="7" column="136" selection-start-line="7" selection-start-column="136" selection-end-line="7" selection-end-column="136" />
+            <state relative-caret-position="221">
+              <caret line="187" column="44" selection-start-line="187" selection-start-column="44" selection-end-line="187" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -269,15 +235,16 @@
       <workItem from="1549479109107" duration="94000" />
       <workItem from="1549479265311" duration="2021000" />
       <workItem from="1549529711893" duration="327000" />
-      <workItem from="1549534007683" duration="13386000" />
+      <workItem from="1549534007683" duration="13537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44146000" />
+    <option name="totallyTimeSpent" value="44297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -592,14 +559,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ekush/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2854">
-          <caret line="7" column="136" selection-start-line="7" selection-start-column="136" selection-end-line="7" selection-end-column="136" />
+        <state relative-caret-position="221">
+          <caret line="187" column="44" selection-start-line="187" selection-start-column="44" selection-end-line="187" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
