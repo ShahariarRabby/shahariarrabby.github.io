@@ -59,9 +59,58 @@
 
     <link href="other/ekushstyles.css" rel="stylesheet"/>
     <script src="other/ekushscripts.js"></script>
-</head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134051778-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134051778-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MD6MZ67');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134051778-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134051778-1', {'optimize_id': 'GTM-TMN43H3'});
+    </script>
+
+</head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD6MZ67"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 <script>$(function () {
     datasetTabNav()
 });</script>
@@ -69,7 +118,7 @@
     <div id="headerBody">
         <img id="headerImage" src="images/ekush-logo.png" alt="Logo"/>
         <div id="headerTabs">
-            <div id="headerEmail">  </div>
+            <div id="headerEmail"></div>
             <ul class="nav nav-tabs">
                 <li class="active">
                     <div class="nav-tab-header"></div>
@@ -89,10 +138,12 @@
                             CSV</a></li>
                         <li><a data-toggle="tab" href="#external"><i class="glyphicon glyphicon-cloud-download"></i>
                             Download Image</a></li>
-                        <li><a data-toggle="tab" href="#captions-eval"><i class="glyphicon glyphicon glyphicon-search"></i>
+                        <li><a data-toggle="tab" href="#captions-eval"><i
+                                class="glyphicon glyphicon glyphicon-search"></i>
                             Participate in Data Correction</a></li>
                         <li><a data-toggle="tab" href="#format-results"><i class="glyphicon glyphicon-stats"></i>
-                            Improve Accuracy</a></li>                    </ul>
+                            Improve Accuracy</a></li>
+                    </ul>
                 </li>
                 <li class="dropdown">
                     <div class="nav-tab-header"></div>
