@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="3349">
               <caret line="197" column="64" selection-start-line="197" selection-start-column="57" selection-end-line="197" selection-end-column="64" />
             </state>
           </provider>
@@ -24,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
+            <state relative-caret-position="-244">
               <caret line="332" column="88" selection-start-line="332" selection-start-column="88" selection-end-line="332" selection-end-column="88" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,9 +39,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ekush/other/ekushscripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/subPage/publication.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="-299">
               <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
             </state>
           </provider>
@@ -121,7 +128,6 @@
         <option value="$PROJECT_DIR$/ekush/dataset/people.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/overview.htm" />
         <option value="$PROJECT_DIR$/ekush/other/ekushexplorer.js" />
-        <option value="$PROJECT_DIR$/ekush/other/ekushscripts.js" />
         <option value="$PROJECT_DIR$/ekush/index.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/home.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/assets/dropdown/js/script.min.js" />
@@ -132,6 +138,7 @@
         <option value="$PROJECT_DIR$/ekush/index1.htm" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/subPage/publication.html" />
+        <option value="$PROJECT_DIR$/ekush/other/ekushscripts.js" />
       </list>
     </option>
   </component>
@@ -154,6 +161,17 @@
             <path>
               <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="ekush" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="ekush" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -231,16 +249,18 @@
       <workItem from="1549555921511" duration="1774000" />
       <workItem from="1549638566391" duration="233000" />
       <workItem from="1549641276299" duration="623000" />
+      <workItem from="1549819500608" duration="303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47310000" />
+    <option name="totallyTimeSpent" value="47613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17181209" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -419,9 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/other/ekushscripts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ekush/index.htm" />
     <entry file="file://$PROJECT_DIR$/ekush/dataset/home.htm">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="197" column="64" selection-start-line="197" selection-start-column="57" selection-end-line="197" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ekush/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -488,9 +498,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3349">
+          <caret line="197" column="64" selection-start-line="197" selection-start-column="57" selection-end-line="197" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subPage/publication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="-244">
           <caret line="332" column="88" selection-start-line="332" selection-start-column="88" selection-end-line="332" selection-end-column="88" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -505,10 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/subPage/publication.html">
+    <entry file="file://$PROJECT_DIR$/ekush/other/ekushscripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        <state relative-caret-position="435">
+          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
         </state>
       </provider>
     </entry>
