@@ -28,7 +28,7 @@ var cocoPeople = {
   'GenevievePatterson': {'name': 'Sadeka Haque', 'full': '', 'short': '', 'url':'https://sadekahaque.github.io/'},
   'YinCui': {'name': 'Sazidul Islam', 'full': '', 'short': '', 'url':'#'},
   'MichaelMaire': {'name': 'Sheikh Abujar', 'full': '', 'short': '', 'url':'#'},
-  'MatteoRonchi': {'name': 'Prof. Dr. Syed Akhter Hossain', 'full': 'Supervisor', 'short': '', 'url':'#'}
+  'MatteoRonchi': {'name': 'Dr. Syed Akhter Hossain', 'full': 'Supervisor', 'short': '', 'url':'#'}
 };
 
 function populateHomePage() {
