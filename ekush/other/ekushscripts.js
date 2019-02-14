@@ -27,7 +27,7 @@ var cocoPeople = {
   'TsungYiLin': {'name': 'AKM Shahariar Azad Rabby', 'full': '', 'short': '', 'url':'https://shahariarrabby.github.io'},
   'GenevievePatterson': {'name': 'Sadeka Haque', 'full': '', 'short': '', 'url':'https://sadekahaque.github.io/'},
   'MatteoRonchi': {'name': 'Dr. Syed Akhter Hossain', 'full': 'Supervisor', 'short': '', 'url':'#'},
-  'YinCui': {'name': 'Sanzidul Islam', 'full': '', 'short': '', 'url':'#'},
+  'YinCui': {'name': 'Md. Sanzidul Islam', 'full': '', 'short': '', 'url':'#'},
   'MichaelMaire': {'name': 'Sheikh Abujar', 'full': '', 'short': '', 'url':'#'},
 };
 
