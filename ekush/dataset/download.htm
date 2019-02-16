@@ -2,6 +2,52 @@
 <p>We converted the whole Ekush dataset into CSV format to reduce I/O time. To convert the csv into image see the code
     bellow. </p>
 
+
+
+<style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #02b770;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+
+
 <div class="json">
     <code>
         # Library<br>
@@ -32,6 +78,10 @@
     <!--<div class="jsonkfunc">frBbox</div><div class="jsonvtxt">Convert bounding boxes to encoded masks.</div>-->
     <!--<div class="jsonkfunc">frPoly</div><div class="jsonvtxt">Convert polygon to encoded mask.</div>-->
 </div>
+
+<h1><a href="https://drive.google.com/open?id=16iwJuCFrHE0JGGfyuP3KSpvGu1p_SHd0" type="button">
+<button class="button" style="vertical-align:middle" ><span>Download </span></button></a>
+
 
 <h1><i class="glyphicon glyphicon-th-list"></i> Cite The Work:
     <!--<span class="fontBigger"><a href="#detection-leaderboard">Detection</a> | <a href="#keypoints-leaderboard">Keypoints</a> | <a href="#stuff-leaderboard">Stuff</a> | <a href="#panoptic-leaderboard">Panoptic</a> | <a href="#captions-leaderboard">Captions</a>-->
