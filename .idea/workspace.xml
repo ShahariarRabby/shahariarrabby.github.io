@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="578" column="33" lean-forward="true" selection-start-line="578" selection-start-column="33" selection-end-line="578" selection-end-column="33" />
+              <caret line="578" column="34" selection-start-line="578" selection-start-column="34" selection-end-line="578" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -116,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-125" />
     <option name="y" value="-20" />
     <option name="width" value="1380" />
@@ -234,16 +232,15 @@
       <workItem from="1550136475616" duration="413000" />
       <workItem from="1550164257753" duration="379000" />
       <workItem from="1550333798178" duration="2682000" />
-      <workItem from="1554152681947" duration="229000" />
+      <workItem from="1554152681947" duration="351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56857000" />
+    <option name="totallyTimeSpent" value="56979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,7 +506,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="578" column="33" lean-forward="true" selection-start-line="578" selection-start-column="33" selection-end-line="578" selection-end-column="33" />
+          <caret line="578" column="34" selection-start-line="578" selection-start-column="34" selection-end-line="578" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
