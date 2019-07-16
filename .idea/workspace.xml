@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="" />
+    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ekush/dataset/stuff-leaderboard.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ekush/dataset/format-data.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/format-data.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ekush/dataset/overview.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/overview.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ekush/dataset/people.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/people.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ekush/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ekush/other/ekushscripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/other/ekushscripts.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,17 +18,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ekush/dataset/people.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-905">
-              <caret line="128" column="29" lean-forward="true" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+            <state relative-caret-position="527">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
-                <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ekush/dataset/format-data.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#h3#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,9 +105,7 @@
         <option value="$PROJECT_DIR$/DevFolio/index.html" />
         <option value="$PROJECT_DIR$/ekush/other/cocoscripts.js" />
         <option value="$PROJECT_DIR$/ekush/dataset/format-results.htm" />
-        <option value="$PROJECT_DIR$/ekush/dataset/format-data.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/guidelines.htm" />
-        <option value="$PROJECT_DIR$/ekush/dataset/people.htm" />
         <option value="$PROJECT_DIR$/ekush/other/ekushexplorer.js" />
         <option value="$PROJECT_DIR$/ekush/dataset/home.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/assets/dropdown/js/script.min.js" />
@@ -103,19 +119,24 @@
         <option value="$PROJECT_DIR$/ekush/index1.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/termsofuse.htm" />
         <option value="$PROJECT_DIR$/ekush/index.html" />
-        <option value="$PROJECT_DIR$/ekush/other/ekushscripts.js" />
-        <option value="$PROJECT_DIR$/ekush/index.htm" />
-        <option value="$PROJECT_DIR$/ekush/dataset/overview.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/external.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/download.htm" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/ekush/dataset/overview.htm" />
+        <option value="$PROJECT_DIR$/ekush/other/ekushscripts.js" />
+        <option value="$PROJECT_DIR$/ekush/dataset/format-cite.htm" />
+        <option value="$PROJECT_DIR$/ekush/dataset/stuff-leaderboard.htm" />
+        <option value="$PROJECT_DIR$/ekush/index.htm" />
+        <option value="$PROJECT_DIR$/ekush/dataset/people.htm" />
+        <option value="$PROJECT_DIR$/ekush/dataset/format-data.htm" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="975" />
-    <option name="height" value="1088" />
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
+    <option name="width" value="1412" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,6 +160,18 @@
             <path>
               <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="ekush" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="ekush" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -149,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,16 +269,18 @@
       <workItem from="1558097671974" duration="2109000" />
       <workItem from="1558458720800" duration="70000" />
       <workItem from="1558723777255" duration="2698000" />
+      <workItem from="1563252309114" duration="976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62580000" />
+    <option name="totallyTimeSpent" value="63556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.44310722" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,7 +294,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34067085" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34033614" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -272,11 +307,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/emojis/technologist.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Brittany Chiang _ Front End Software Engineer1.html" />
-    <entry file="file://$PROJECT_DIR$/enc.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/common.rnc" />
     <entry file="file://$USER_HOME$/sadeka/juliangarnier.com/index.html" />
     <entry file="file://$PROJECT_DIR$/mainNull.html">
@@ -366,20 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/format-data.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/format-results.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ekush/dataset/home.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -451,39 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/people.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/other/ekushscripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="138" column="56" selection-start-line="138" selection-start-column="56" selection-end-line="138" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/overview.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ekush/dataset/external.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -506,16 +489,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/format-results.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/overview.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/coming.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/stuff-leaderboard.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/other/ekushscripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="483" selection-start-line="3" selection-start-column="466" selection-end-line="3" selection-end-column="483" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="145" column="73" selection-start-line="145" selection-start-column="73" selection-end-line="145" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/format-cite.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-905">
-          <caret line="128" column="29" lean-forward="true" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+        <state relative-caret-position="854">
+          <caret line="128" column="29" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/people.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/format-data.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h3#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
