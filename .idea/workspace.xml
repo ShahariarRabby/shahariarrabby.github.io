@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="" />
+    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ekush/dataset/home.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ekush/dataset/home.htm" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ekush/dataset/people.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="2163">
               <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -27,11 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ekush/dataset/format-data.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#h3#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="294">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -49,16 +49,34 @@
         <entry file="file://$PROJECT_DIR$/ekush/dataset/stuff-leaderboard.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="4" />
+              <caret line="1" column="369" selection-start-line="1" selection-start-column="369" selection-end-line="1" selection-end-column="369" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ekush/index.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2417">
+              <caret line="145" column="73" selection-start-line="145" selection-start-column="73" selection-end-line="145" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ekush/dataset/home.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ekush/dataset/overview.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
+            <state relative-caret-position="609">
+              <caret line="29" column="370" selection-start-line="29" selection-start-column="370" selection-end-line="29" selection-end-column="370" />
             </state>
           </provider>
         </entry>
@@ -126,7 +144,6 @@
         <option value="$PROJECT_DIR$/ekush/dataset/format-results.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/guidelines.htm" />
         <option value="$PROJECT_DIR$/ekush/other/ekushexplorer.js" />
-        <option value="$PROJECT_DIR$/ekush/dataset/home.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/assets/dropdown/js/script.min.js" />
         <option value="$PROJECT_DIR$/ekush/dataset/assets/dropdown/css/style.css" />
         <option value="$PROJECT_DIR$/ekush/dataset/explore.htm" />
@@ -146,8 +163,9 @@
         <option value="$PROJECT_DIR$/ekush/index.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/people.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/format-data.htm" />
-        <option value="$PROJECT_DIR$/ekush/dataset/stuff-leaderboard.htm" />
         <option value="$PROJECT_DIR$/ekush/dataset/overview.htm" />
+        <option value="$PROJECT_DIR$/ekush/dataset/stuff-leaderboard.htm" />
+        <option value="$PROJECT_DIR$/ekush/dataset/home.htm" />
       </list>
     </option>
   </component>
@@ -162,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,12 +201,6 @@
             <path>
               <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="ekush" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -201,6 +212,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,16 +300,19 @@
       <workItem from="1558458720800" duration="70000" />
       <workItem from="1558723777255" duration="2698000" />
       <workItem from="1563252309114" duration="1598000" />
+      <workItem from="1563544879185" duration="771000" />
+      <workItem from="1563549293523" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64178000" />
+    <option name="totallyTimeSpent" value="65197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2274678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22692037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,8 +326,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34033614" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33954155" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="GraphQL" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,13 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3349">
           <caret line="197" column="64" selection-start-line="197" selection-start-column="57" selection-end-line="197" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/home.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -523,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="145" column="73" selection-start-line="145" selection-start-column="73" selection-end-line="145" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="854">
@@ -546,7 +548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ekush/dataset/people.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="2163">
           <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -558,11 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ekush/dataset/format-data.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#h3#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -573,17 +572,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/stuff-leaderboard.htm">
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/overview.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="609">
+          <caret line="29" column="370" selection-start-line="29" selection-start-column="370" selection-end-line="29" selection-end-column="370" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ekush/dataset/overview.htm">
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/stuff-leaderboard.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
+        <state relative-caret-position="21">
+          <caret line="1" column="369" selection-start-line="1" selection-start-column="369" selection-end-line="1" selection-end-column="369" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2417">
+          <caret line="145" column="73" selection-start-line="145" selection-start-column="73" selection-end-line="145" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ekush/dataset/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
         </state>
       </provider>
     </entry>
