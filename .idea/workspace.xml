@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/achievement.html" beforeDir="false" afterPath="$PROJECT_DIR$/achievement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/cdn-cgi/l/email-protection.html" beforeDir="false" afterPath="$PROJECT_DIR$/asset/cdn-cgi/l/email-protection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certification.html" beforeDir="false" afterPath="$PROJECT_DIR$/certification.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainNull.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainNull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publication.html" beforeDir="false" afterPath="$PROJECT_DIR$/publication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/v1/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,14 +15,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+            <state relative-caret-position="-148">
+              <caret line="715" column="30" lean-forward="true" selection-start-line="715" selection-start-column="30" selection-end-line="715" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -81,9 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>og:image</find>
-      <find>og.jpg</find>
-      <find>og1.jpg</find>
       <find>index.html</find>
       <find>og1</find>
       <find>png</find>
@@ -111,6 +96,9 @@
       <find>shahariarrabby</find>
       <find>shahariar rabby</find>
       <find>shahariarrabby_</find>
+      <find>best paper</find>
+      <find>Best Paper Award at rtip2r</find>
+      <find>1612488007</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,10 +147,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="94" />
-    <option name="width" value="1366" />
-    <option name="height" value="745" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="93" />
+    <option name="width" value="1367" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,11 +165,6 @@
             <path>
               <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shahariarrabby.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shahariarrabby.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="cv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,17 +268,18 @@
       <workItem from="1563782874216" duration="1152000" />
       <workItem from="1564128909801" duration="58000" />
       <workItem from="1564848316291" duration="662000" />
-      <workItem from="1568608836140" duration="1541000" />
+      <workItem from="1568608836140" duration="3071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69593000" />
+    <option name="totallyTimeSpent" value="71123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="94" width="1366" height="745" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23564954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22317597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,7 +293,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33690658" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30812326" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="GraphQL" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -580,14 +564,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+        <state relative-caret-position="-148">
+          <caret line="715" column="30" lean-forward="true" selection-start-line="715" selection-start-column="30" selection-end-line="715" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
