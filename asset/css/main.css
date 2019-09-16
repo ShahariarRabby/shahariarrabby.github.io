@@ -108,12 +108,12 @@ body.night ::selection, html.night ::selection {
 }
 
 body.night .switch-wrapper .sun, html.night .switch-wrapper .sun {
-    background: url(../img/switch/sun-white.svg) no-repeat center;
+    background: url(../asset/img/switch/sun-white.svg) no-repeat center;
     background-size: 100%
 }
 
 body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
-    background: url(../img/switch/moon-white.svg) no-repeat center;
+    background: url(../asset/img/switch/moon-white.svg) no-repeat center;
     background-size: 100%
 }
 
@@ -299,7 +299,7 @@ strong {
     bottom: 2px;
     margin-left: 15px;
     content: '';
-    background: url(../img/arrow.png) no-repeat center;
+    background: url(../asset/img/arrow.png) no-repeat center;
     background-size: 100%;
     width: 15px;
     height: 15px;
@@ -405,12 +405,12 @@ strong {
 }
 
 .switch-wrapper .sun {
-    background: url(../img/switch/sun.svg) no-repeat center;
+    background: url(../asset/img/switch/sun.svg) no-repeat center;
     background-size: 100%
 }
 
 .switch-wrapper .moon {
-    background: url(../img/switch/moon.svg) no-repeat center;
+    background: url(../asset/img/switch/moon.svg) no-repeat center;
     background-size: 100%
 }
 
@@ -558,7 +558,7 @@ strong {
 }
 
 .intro__hello .wave-hand {
-    background-image: url(../img/emojis/wave.png);
+    background-image: url(../asset/img/emojis/wave.png);
     margin-left: 10px;
     cursor: pointer
 }
@@ -647,7 +647,7 @@ strong {
 }
 
 .intro__tagline .technologist {
-    background-image: url(../img/emojis/technologist.png)
+    background-image: url(../asset/img/emojis/technologist.png)
 }
 
 .intro__contact {
@@ -662,7 +662,7 @@ strong {
 }
 
 .intro__contact .emoji.pointer {
-    background-image: url(../img/emojis/pointright.png);
+    background-image: url(../asset/img/emojis/pointright.png);
     width: 30px;
     height: 30px;
     margin: 0 5px;
