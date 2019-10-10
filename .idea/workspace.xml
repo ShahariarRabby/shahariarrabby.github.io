@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="375" column="205" selection-start-line="375" selection-start-column="205" selection-end-line="375" selection-end-column="205" />
+            <state relative-caret-position="210">
+              <caret line="375" column="191" selection-start-line="375" selection-start-column="191" selection-end-line="375" selection-end-column="191" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -145,8 +145,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="93" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="83" />
     <option name="width" value="1367" />
     <option name="height" value="746" />
   </component>
@@ -272,18 +272,18 @@
       <workItem from="1564128909801" duration="58000" />
       <workItem from="1564848316291" duration="662000" />
       <workItem from="1568608836140" duration="3701000" />
-      <workItem from="1570687543568" duration="428000" />
+      <workItem from="1570687543568" duration="1360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72181000" />
+    <option name="totallyTimeSpent" value="73113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="0" y="83" width="1367" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22603719" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23849057" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,7 +297,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30812326" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33639145" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="GraphQL" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -541,8 +541,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="375" column="205" selection-start-line="375" selection-start-column="205" selection-end-line="375" selection-end-column="205" />
+        <state relative-caret-position="210">
+          <caret line="375" column="191" selection-start-line="375" selection-start-column="191" selection-end-line="375" selection-end-column="191" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
