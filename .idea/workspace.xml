@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="" />
+    <list default="true" id="02adae03-dc56-4fad-8603-818b84dc01a8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="375" column="191" selection-start-line="375" selection-start-column="191" selection-end-line="375" selection-end-column="191" />
+            <state relative-caret-position="204">
+              <caret line="375" column="83" selection-start-line="375" selection-start-column="83" selection-end-line="375" selection-end-column="83" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -146,7 +149,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="83" />
+    <option name="x" value="46" />
+    <option name="y" value="41" />
     <option name="width" value="1367" />
     <option name="height" value="746" />
   </component>
@@ -156,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +177,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,18 +276,19 @@
       <workItem from="1564128909801" duration="58000" />
       <workItem from="1564848316291" duration="662000" />
       <workItem from="1568608836140" duration="3701000" />
-      <workItem from="1570687543568" duration="1360000" />
+      <workItem from="1570687543568" duration="1587000" />
+      <workItem from="1570800428980" duration="95000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73113000" />
+    <option name="totallyTimeSpent" value="73435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="83" width="1367" height="746" extended-state="0" />
+    <frame x="46" y="41" width="1367" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23849057" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24226415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -541,8 +546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="375" column="191" selection-start-line="375" selection-start-column="191" selection-end-line="375" selection-end-column="191" />
+        <state relative-caret-position="204">
+          <caret line="375" column="83" selection-start-line="375" selection-start-column="83" selection-end-line="375" selection-end-column="83" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
