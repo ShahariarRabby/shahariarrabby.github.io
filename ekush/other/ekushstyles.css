@@ -73,6 +73,13 @@ li.checkBullet {
   height:22px;
   padding-left:38px;
 }
+
+li.dotBullet {
+  background:url(../images/icons/iconGo.png) no-repeat left top;
+  /*height:22px;*/
+  padding-left:20px;
+}
+
 .wide {
   width:100%;
 }
