@@ -26,6 +26,8 @@ function datasetTabNav() {
 var cocoPeople = {
   'TsungYiLin': {'name': 'AKM Shahariar Azad Rabby', 'full': '', 'short': '', 'url':'https://shahariarrabby.github.io'},
   'GenevievePatterson': {'name': 'Sadeka Haque', 'full': '', 'short': '', 'url':'https://sadekahaque.github.io/'},
+  'TsungYiLi': {'name': 'Jannatul Ferdous', 'full': '', 'short': '', 'url':'https://www.linkedin.com/in/ehita-jannat-6bbb35186/'},
+  'GenevievePatterso': {'name': 'Suvrajit karmaker', 'full': '', 'short': '', 'url':'https://www.linkedin.com/in/suvrajit-karmaker-870114152/'},
   'MatteoRonchi': {'name': 'Dr. Syed Akhter Hossain', 'full': 'Supervisor', 'short': '', 'url':'#'},
   'YinCui': {'name': 'Md. Sanzidul Islam', 'full': '', 'short': '', 'url':'#'},
   'MichaelMaire': {'name': 'Sheikh Abujar', 'full': '', 'short': '', 'url':'#'},
