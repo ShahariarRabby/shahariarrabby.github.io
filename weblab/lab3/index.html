@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #191e27;
+            color: #f8f9fa;
+        }
+
+        .converter {
+            margin-top: 50px;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .form-group label {
+            font-size: 1.2em;
+        }
+
+        .form-control {
+            background-color: #495057;
+            color: #f8f9fa;
+            border: 1px solid #ced4da;
+        }
+
+        .form-control:focus {
+            background-color: #495057;
+            color: #f8f9fa;
+        }
+
+        .card {
+            background-color: #495057;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .warning {
+            color: #ff4f4f;
+            font-size: 0.9em;
+            margin-top: 5px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container converter">
+        <div class="title">Unit Converter</div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Weight Conversion</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="kgInput">Kilograms</label>
+                                <input type="text" class="form-control" id="kgInput" placeholder="Enter kg" oninput="validateInput(this); convertKgToLb()">
+                                <div class="warning" id="kgWarning">Only numbers and decimal points are allowed.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="lbInput">Pounds</label>
+                                <input type="text" class="form-control" id="lbInput" placeholder="Enter lb" oninput="validateInput(this); convertLbToKg()">
+                                <div class="warning" id="lbWarning">Only numbers and decimal points are allowed.</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Distance Conversion</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="kmInput">Kilometers</label>
+                                <input type="text" class="form-control" id="kmInput" placeholder="Enter km" oninput="validateInput(this); convertKmToMiles()">
+                                <div class="warning" id="kmWarning">Only numbers and decimal points are allowed.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="milesInput">Miles</label>
+                                <input type="text" class="form-control" id="milesInput" placeholder="Enter miles" oninput="validateInput(this); convertMilesToKm()">
+                                <div class="warning" id="milesWarning">Only numbers and decimal points are allowed.</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Temperature Conversion</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="celsiusInput">Celsius</label>
+                                <input type="text" class="form-control" id="celsiusInput" placeholder="Enter °C" oninput="validateInput(this); convertCelsiusToFahrenheit()">
+                                <div class="warning" id="celsiusWarning">Only numbers and decimal points are allowed.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="fahrenheitInput">Fahrenheit</label>
+                                <input type="text" class="form-control" id="fahrenheitInput" placeholder="Enter °F" oninput="validateInput(this); convertFahrenheitToCelsius()">
+                                <div class="warning" id="fahrenheitWarning">Only numbers and decimal points are allowed.</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function validateInput(input) {
+            const warning = input.nextElementSibling;
+            if (/[^0-9.]/g.test(input.value)) {
+                input.value = input.value.replace(/[^0-9.]/g, '');
+                warning.style.display = 'block';
+            } else {
+                warning.style.display = 'none';
+            }
+        }
+
+        function convertKgToLb() {
+            let kg = document.getElementById('kgInput').value;
+            if (kg) {
+                document.getElementById('lbInput').value = (kg * 2.20462).toFixed(2);
+            } else {
+                document.getElementById('lbInput').value = '';
+            }
+        }
+
+        function convertLbToKg() {
+            let lb = document.getElementById('lbInput').value;
+            if (lb) {
+                document.getElementById('kgInput').value = (lb / 2.20462).toFixed(2);
+            } else {
+                document.getElementById('kgInput').value = '';
+            }
+        }
+
+        function convertKmToMiles() {
+            let km = document.getElementById('kmInput').value;
+            if (km) {
+                document.getElementById('milesInput').value = (km * 0.621371).toFixed(2);
+            } else {
+                document.getElementById('milesInput').value = '';
+            }
+        }
+
+        function convertMilesToKm() {
+            let miles = document.getElementById('milesInput').value;
+            if (miles) {
+                document.getElementById('kmInput').value = (miles / 0.621371).toFixed(2);
+            } else {
+                document.getElementById('kmInput').value = '';
+            }
+        }
+
+        function convertCelsiusToFahrenheit() {
+            let celsius = document.getElementById('celsiusInput').value;
+            if (celsius) {
+                document.getElementById('fahrenheitInput').value = ((celsius * 9 / 5) + 32).toFixed(2);
+            } else {
+                document.getElementById('fahrenheitInput').value = '';
+            }
+        }
+
+        function convertFahrenheitToCelsius() {
+            let fahrenheit = document.getElementById('fahrenheitInput').value;
+            if (fahrenheit) {
+                document.getElementById('celsiusInput').value = ((fahrenheit - 32) * 5 / 9).toFixed(2);
+            } else {
+                document.getElementById('celsiusInput').value = '';
+            }
+        }
+    </script>
+</body>
+
+</html>
