@@ -1,0 +1,61 @@
+/* Professional CTA Buttons */
+.cta-buttons-container {
+    margin-top: 30px;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 10;
+}
+
+.cta-button {
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.cta-button--primary {
+    background: #007bff;
+    color: white;
+}
+
+.cta-button--primary:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.cta-button--secondary {
+    background: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.cta-button--secondary:hover {
+    background: #007bff;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Hide buttons on smaller screens to prevent overlap */
+@media (max-width: 1024px) {
+    .cta-buttons-container {
+        display: none;
+    }
+}
+
+/* Show buttons only on very large screens where they don't overlap */
+@media (min-width: 1200px) {
+    .cta-buttons-container {
+        display: flex;
+    }
+}
