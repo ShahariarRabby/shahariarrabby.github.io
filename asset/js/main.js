@@ -16,22 +16,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     toggle.addEventListener('click', function() {
-        console.log('Toggle clicked! Current state:', input.checked);
-        
-        // Toggle the checkbox state
-        input.checked = !input.checked;
-        
-        console.log('New state:', input.checked);
-        
-        // Apply the night class based on the new state
-        if (input.checked) {
-            body.classList.add('night');
-            html.classList.add('night');
-            console.log('Switched to dark mode');
-        } else {
+        const isChecked = input.checked;
+        if (isChecked) {
             body.classList.remove('night');
             html.classList.remove('night');
-            console.log('Switched to light mode');
+        } else {
+            body.classList.add('night');
+            html.classList.add('night');
         }
     });
     
