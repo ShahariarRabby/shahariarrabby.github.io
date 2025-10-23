@@ -17,6 +17,11 @@
     <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <link rel="icon" href="asset/img/icons/technologist.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Shahariar Rabby">
+    <link rel="apple-touch-icon" href="asset/img/icons/technologist.png">
     
     <!-- Open Graph Tags -->
     <meta property="og:title" content="Shahariar Rabby | CS PhD & Machine Learning Engineer">
@@ -593,6 +598,21 @@
 </div>
 <script src=asset/unpkg.com/scrollreveal%403.4.0/dist/scrollreveal.min.js></script>
 <script charset=utf-8 src=asset/js/main.js type=text/javascript></script>
+
+<!-- Service Worker Registration -->
+<script>
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js')
+            .then(function(registration) {
+                console.log('Service Worker registered successfully:', registration.scope);
+            })
+            .catch(function(error) {
+                console.log('Service Worker registration failed:', error);
+            });
+    });
+}
+</script>
 
 <!-- Button functionality -->
 <script>
