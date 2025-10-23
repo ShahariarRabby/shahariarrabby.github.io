@@ -5,20 +5,33 @@ document.addEventListener('DOMContentLoaded', function() {
     const hours = d.getHours();
     const night = hours >= 18 || hours <= 6;
     const body = document.querySelector('body');
+    const html = document.querySelector('html');
     const toggle = document.getElementById('toggle');
     const input = document.getElementById('switch');
     
     if (night) {
         input.checked = true;
         body.classList.add('night');
+        html.classList.add('night');
     }
     
     toggle.addEventListener('click', function() {
-        const isChecked = input.checked;
-        if (isChecked) {
-            body.classList.remove('night');
-        } else {
+        console.log('Toggle clicked! Current state:', input.checked);
+        
+        // Toggle the checkbox state
+        input.checked = !input.checked;
+        
+        console.log('New state:', input.checked);
+        
+        // Apply the night class based on the new state
+        if (input.checked) {
             body.classList.add('night');
+            html.classList.add('night');
+            console.log('Switched to dark mode');
+        } else {
+            body.classList.remove('night');
+            html.classList.remove('night');
+            console.log('Switched to light mode');
         }
     });
     
