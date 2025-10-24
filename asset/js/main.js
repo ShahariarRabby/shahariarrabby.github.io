@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Dark mode functionality
     const d = new Date();
     const hours = d.getHours();
-    const night = hours >= 18 || hours <= 6;
+    const night = hours >= 18 || hours < 6;
     const body = document.querySelector('body');
     const html = document.querySelector('html');
     const toggle = document.getElementById('toggle');
