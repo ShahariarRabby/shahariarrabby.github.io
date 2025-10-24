@@ -349,12 +349,22 @@
 </script>
 
     <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZMDPR2Y1X"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZMDPR2Y1X" onerror="console.log('Google Analytics failed to load due to SSL issues')"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-2ZMDPR2Y1X');
+</script>
+
+<!-- Error handling for external scripts -->
+<script>
+    // Handle SSL certificate errors gracefully
+    window.addEventListener('error', function(e) {
+        if (e.message.includes('CERT_AUTHORITY_INVALID') || e.message.includes('net::ERR_CERT_AUTHORITY_INVALID')) {
+            console.log('External service SSL certificate issue detected - this is normal and does not affect website functionality');
+        }
+    });
 </script>
 </head>
 
@@ -615,7 +625,7 @@
         <div class=section__content>
             <div class="project blistabloc">
                 <figure class=project__pic>
-                    <a href=https://www.medrxiv.org/content/10.1101/2025.01.15.24301367v1 target=_blank><img loading="lazy" alt="COPDxNet deep learning model architecture showing CNN layers for COPD detection" src=asset/img/featured/copdxnet/copd-model.webp></a>
+                    <a href=https://www.medrxiv.org/content/10.1101/2025.01.15.24301367v1 target=_blank><img loading="lazy" alt="COPDxNet deep learning model architecture showing CNN layers for COPD detection" src=asset/img/featured/copdxnet/copd-model.webp onerror="this.style.display='none'"></a>
                 </figure>
                 <figcaption class=project__caption>
                     <div class=project__name>
@@ -638,7 +648,7 @@
             </div>
             <div class="project blistabloc">
                 <figure class=project__pic>
-                    <a href=ekush/index.htm target=_blank><img loading="lazy" alt="Ekush dataset visualization showing diverse Bangla handwritten characters for machine learning research" src=asset/img/featured/ekush-dataset/ekush-dataset.webp></a>
+                    <a href=ekush/index.htm target=_blank><img loading="lazy" alt="Ekush dataset visualization showing diverse Bangla handwritten characters for machine learning research" src=asset/img/featured/ekush-dataset/ekush-dataset.webp onerror="this.style.display='none'"></a>
                 </figure>
                 <figcaption class=project__caption>
                     <div class=project__name>
