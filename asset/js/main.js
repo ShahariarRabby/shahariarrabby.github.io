@@ -1,8 +1,5 @@
 // Vanilla JavaScript - No jQuery dependencies
-// Updated: 2025-01-23 06:06 AM - Fixed time logic
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM loaded, initializing dark mode... (Updated 06:06 AM)');
-    
     // Dark mode functionality
     const d = new Date();
     const hours = d.getHours();
@@ -12,13 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const toggle = document.getElementById('toggle');
     const input = document.getElementById('switch');
     
-    console.log('Elements found:', {
-        body: !!body,
-        html: !!html,
-        toggle: !!toggle,
-        input: !!input
-    });
-    
     if (night) {
         input.checked = true;
         body.classList.add('night');
@@ -26,23 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     if (toggle) {
-        console.log('Adding click listener to toggle...');
         toggle.addEventListener('click', function() {
-            console.log('Toggle clicked!');
             const isChecked = input.checked;
-            console.log('Current checked state:', isChecked);
             if (isChecked) {
                 body.classList.remove('night');
                 html.classList.remove('night');
-                console.log('Switched to light mode');
             } else {
                 body.classList.add('night');
                 html.classList.add('night');
-                console.log('Switched to dark mode');
             }
         });
-    } else {
-        console.error('Toggle element not found!');
     }
     
     // Scroll to top functionality
