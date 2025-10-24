@@ -1,6 +1,7 @@
 // Vanilla JavaScript - No jQuery dependencies
+// Updated: 2025-01-23 06:06 AM - Fixed time logic
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM loaded, initializing dark mode...');
+    console.log('DOM loaded, initializing dark mode... (Updated 06:06 AM)');
     
     // Dark mode functionality
     const d = new Date();
