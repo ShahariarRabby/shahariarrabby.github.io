@@ -156,7 +156,7 @@ async function staleWhileRevalidateStrategy(request) {
     const cachedResponse = await cache.match(request);
 
     const fetchPromise = fetch(request).then(networkResponse => {
-        if (networkResponse.ok) {
+        if (networkResponse.ok && networkResponse.status !== 206) {
             cache.put(request, networkResponse.clone());
         }
         return networkResponse;
