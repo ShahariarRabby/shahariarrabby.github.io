@@ -14,9 +14,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Shahariar Rabby">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="Thu, 01 Jan 2025 00:00:00 GMT">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://cloudflareinsights.com;">
     <link rel="icon" href="asset/img/icons/technologist.png" type="image/png">
@@ -320,10 +321,10 @@
     
     <!-- Non-critical CSS - Load asynchronously -->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preload" href="asset/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="asset/css/main.css"></noscript>
-    <link rel="preload" href="asset/css/buttons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="asset/css/buttons.css"></noscript>
+    <link rel="preload" href="asset/css/main.css?v=a541cff-1737600000" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="asset/css/main.css?v=a541cff-1737600000"></noscript>
+    <link rel="preload" href="asset/css/buttons.css?v=a541cff-1737600000" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="asset/css/buttons.css?v=a541cff-1737600000"></noscript>
     
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -365,6 +366,24 @@
             console.log('External service SSL certificate issue detected - this is normal and does not affect website functionality');
         }
     });
+    
+    // Force cache clear for Chrome
+    if ('caches' in window) {
+        caches.keys().then(function(names) {
+            names.forEach(function(name) {
+                caches.delete(name);
+            });
+        });
+    }
+    
+    // Force reload if old version detected
+    if (localStorage.getItem('version') !== 'a541cff-1737600000') {
+        localStorage.setItem('version', 'a541cff-1737600000');
+        if (performance.navigation.type === 1) {
+            // Only reload if it's a refresh, not initial load
+            window.location.reload(true);
+        }
+    }
 </script>
 </head>
 
@@ -695,7 +714,7 @@
     <button id=top-button><img loading="lazy" alt="Scroll to top arrow" src="asset/img/icons/arrow-up.webp"></button>
 </div>
 <script src=asset/unpkg.com/scrollreveal%403.4.0/dist/scrollreveal.min.js></script>
-<script charset=utf-8 src=asset/js/main.js?v=2d70fef type=text/javascript></script>
+<script charset=utf-8 src=asset/js/main.js?v=a541cff-1737600000 type=text/javascript></script>
 
 <!-- Service Worker Registration -->
 <script>
