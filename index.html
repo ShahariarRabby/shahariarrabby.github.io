@@ -350,31 +350,34 @@
 </script>
 
     <!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZMDPR2Y1X"></script>
 <script>
-    // Load Google Analytics with better error handling
-    (function() {
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-2ZMDPR2Y1X';
-        script.onerror = function() {
-            console.log('Google Analytics failed to load - this is normal and does not affect website functionality');
-            // Fallback: try alternative Google Analytics URL
-            var fallbackScript = document.createElement('script');
-            fallbackScript.async = true;
-            fallbackScript.src = 'https://ssl.google-analytics.com/analytics.js';
-            fallbackScript.onerror = function() {
-                console.log('Google Analytics fallback also failed - analytics disabled');
-            };
-            document.head.appendChild(fallbackScript);
-        };
-        script.onload = function() {
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-2ZMDPR2Y1X');
-        };
-        document.head.appendChild(script);
-    })();
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2ZMDPR2Y1X', {
+        'send_page_view': true,
+        'anonymize_ip': true
+    });
+    
+    // Manual page view tracking to ensure it works
+    gtag('event', 'page_view', {
+        'page_title': document.title,
+        'page_location': window.location.href
+    });
+    
+    // Debug: Check if Google Analytics is working
+    setTimeout(function() {
+        if (typeof gtag === 'function') {
+            console.log('✅ Google Analytics is loaded and working');
+            gtag('event', 'debug_test', {
+                'event_category': 'debug',
+                'event_label': 'GA4_test'
+            });
+        } else {
+            console.log('❌ Google Analytics failed to load');
+        }
+    }, 2000);
 </script>
 
 <!-- Error handling for external scripts -->
