@@ -88,13 +88,4 @@ document.addEventListener('DOMContentLoaded', function() {
     sr.reveal('.other-projects', {viewFactor: 0.05});
 });
 
-// Disable right-click context menu
-if (document.addEventListener) {
-    document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-    }, false);
-} else {
-    document.attachEvent('oncontextmenu', function() {
-        window.event.returnValue = false;
-    });
-}
+// Right-click is now enabled for better user experience
