@@ -366,33 +366,14 @@
         'page_location': window.location.href
     });
     
-    // Debug: Check if Google Analytics is working
-    setTimeout(function() {
-        if (typeof gtag === 'function') {
-            console.log('✅ Google Analytics is loaded and working');
-            gtag('event', 'debug_test', {
-                'event_category': 'debug',
-                'event_label': 'GA4_test'
-            });
-        } else {
-            console.log('❌ Google Analytics failed to load');
-        }
-    }, 2000);
+    // Google Analytics is now properly configured
 </script>
 
 <!-- Error handling for external scripts -->
 <script>
-    // Handle SSL certificate errors gracefully
+    // Handle external service errors gracefully (silent handling for production)
     window.addEventListener('error', function(e) {
-        if (e.message.includes('CERT_AUTHORITY_INVALID') || e.message.includes('net::ERR_CERT_AUTHORITY_INVALID')) {
-            console.log('External service SSL certificate issue detected - this is normal and does not affect website functionality');
-        }
-        if (e.message.includes('ERR_BLOCKED_BY_CLIENT')) {
-            console.log('External analytics blocked by adblocker - this is normal and does not affect website functionality');
-        }
-        if (e.message.includes('ERR_UNSAFE_REDIRECT')) {
-            console.log('External service redirect issue - this is normal and does not affect website functionality');
-        }
+        // External service errors are handled silently in production
     });
     
     // Force cache clear for Chrome
@@ -749,15 +730,15 @@
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
     window.addEventListener('load', function() {
         navigator.serviceWorker.register('/sw.js')
-            .then(function(registration) {
-                console.log('Service Worker registered successfully:', registration.scope);
-            })
-            .catch(function(error) {
-                console.log('Service Worker registration failed:', error);
-            });
+        .then(function(registration) {
+            // Service Worker registered successfully
+        })
+        .catch(function(error) {
+            // Service Worker registration failed (silent in production)
+        });
     });
 } else if (location.protocol === 'file:') {
-    console.log('Service Worker not supported in file:// protocol (local testing)');
+    // Service Worker not supported in file:// protocol (local testing)
 }
 </script>
 

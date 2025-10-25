@@ -29,40 +29,34 @@ const STATIC_ASSETS = [
 
 // Install event - cache static assets
 self.addEventListener('install', event => {
-    console.log('Service Worker: Installing...');
     event.waitUntil(
         caches.open(STATIC_CACHE)
             .then(cache => {
-                console.log('Service Worker: Caching static assets');
                 return cache.addAll(STATIC_ASSETS);
             })
             .then(() => {
-                console.log('Service Worker: Static assets cached');
                 return self.skipWaiting();
             })
             .catch(error => {
-                console.error('Service Worker: Cache installation failed', error);
+                // Cache installation failed (silent in production)
             })
     );
 });
 
 // Activate event - clean up old caches
 self.addEventListener('activate', event => {
-    console.log('Service Worker: Activating...');
     event.waitUntil(
         caches.keys()
             .then(cacheNames => {
                 return Promise.all(
                     cacheNames.map(cacheName => {
                         if (cacheName !== STATIC_CACHE && cacheName !== DYNAMIC_CACHE) {
-                            console.log('Service Worker: Deleting old cache', cacheName);
                             return caches.delete(cacheName);
                         }
                     })
                 );
             })
             .then(() => {
-                console.log('Service Worker: Activated');
                 return self.clients.claim();
             })
     );
@@ -88,7 +82,6 @@ self.addEventListener('fetch', event => {
             .then(cachedResponse => {
                 // Return cached version if available
                 if (cachedResponse) {
-                    console.log('Service Worker: Serving from cache', request.url);
                     return cachedResponse;
                 }
 
@@ -106,7 +99,7 @@ self.addEventListener('fetch', event => {
                 return staleWhileRevalidateStrategy(request);
             })
             .catch(error => {
-                console.error('Service Worker: Fetch failed', error);
+                // Fetch failed (silent in production)
                 // Return offline page for navigation requests
                 if (request.destination === 'document') {
                     return caches.match('/index.html');
@@ -179,7 +172,6 @@ self.addEventListener('sync', event => {
 });
 
 async function doBackgroundSync() {
-    console.log('Service Worker: Background sync');
     // Implement background sync logic here
 }
 
