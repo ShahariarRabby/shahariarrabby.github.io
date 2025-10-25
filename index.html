@@ -19,7 +19,7 @@
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="Last-Modified" content="Thu, 01 Jan 2025 00:00:00 GMT">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com https://www.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://cloudflareinsights.com https://www.google.com;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com https://www.google.com https://ssl.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://cloudflareinsights.com https://www.google.com https://ssl.google-analytics.com;">
     <link rel="icon" href="asset/img/icons/technologist.png" type="image/png">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="asset/img/icons/technologist.png">
@@ -350,12 +350,31 @@
 </script>
 
     <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZMDPR2Y1X" onerror="console.log('Google Analytics failed to load due to SSL issues')"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-2ZMDPR2Y1X');
+    // Load Google Analytics with better error handling
+    (function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-2ZMDPR2Y1X';
+        script.onerror = function() {
+            console.log('Google Analytics failed to load - this is normal and does not affect website functionality');
+            // Fallback: try alternative Google Analytics URL
+            var fallbackScript = document.createElement('script');
+            fallbackScript.async = true;
+            fallbackScript.src = 'https://ssl.google-analytics.com/analytics.js';
+            fallbackScript.onerror = function() {
+                console.log('Google Analytics fallback also failed - analytics disabled');
+            };
+            document.head.appendChild(fallbackScript);
+        };
+        script.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2ZMDPR2Y1X');
+        };
+        document.head.appendChild(script);
+    })();
 </script>
 
 <!-- Error handling for external scripts -->
