@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
-  <title>404</title>
+  <title>Page not found — Shahariar Rabby</title>
+  <meta name="description" content="The page you requested could not be found on Shahariar Rabby's website.">
+  <meta name="author" content="Shahariar Rabby">
+  <meta name="robots" content="noindex, follow">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f6f4ef">
   <link rel="icon" href="asset/img/icons/technologist.png" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="asset/css/main.css">
+  <link rel="stylesheet" href="asset/css/404.css">
 </head>
-<body>
-  <section class="page" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center;">
-    <p style="font-size:0.75rem;font-family:'JetBrains Mono',monospace;color:var(--fg-muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:20px;">404</p>
-    <p style="font-size:0.95rem;color:var(--fg-secondary);margin-bottom:24px;">This page doesn't exist.</p>
-    <a href="/" style="color:var(--accent);font-size:0.9rem;">Back to Home</a>
-  </section>
-  <script>
-    (function(){var h=new Date().getHours();document.documentElement.setAttribute("data-theme",localStorage.getItem("theme")||(h>=6&&h<18?"light":"dark"));})();
-  </script>
+<body class="not-found-page">
+  <main class="not-found" aria-labelledby="not-found-title">
+    <div class="not-found__mark" aria-hidden="true">404</div>
+    <p class="not-found__eyebrow">Shahariar Rabby · Personal site</p>
+    <h1 id="not-found-title">This page has wandered off.</h1>
+    <p class="not-found__copy">The address may be outdated, or the page may have moved. Start from one of the two main profiles.</p>
+    <nav class="not-found__actions" aria-label="Site destinations">
+      <a class="not-found__primary" href="/">Academic profile <span aria-hidden="true">↗</span></a>
+      <a class="not-found__secondary" href="/industry/">Industry profile <span aria-hidden="true">↗</span></a>
+    </nav>
+    <a class="not-found__back" href="javascript:history.back()">← Go back</a>
+  </main>
 </body>
 </html>
