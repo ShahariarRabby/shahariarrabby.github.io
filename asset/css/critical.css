@@ -1,0 +1,179 @@
+/* Critical CSS - Above the fold styles */
+@font-face {
+    font-family: Apercu;
+    src: url(../fonts/apercu/Apercu-Light.eot);
+    src: url(../fonts/apercu/Apercu-Lightd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Light.woff2) format("woff2"), url(../fonts/apercu/Apercu-Light.woff) format("woff"), url(../fonts/apercu/Apercu-Light.ttf) format("truetype"), url(../fonts/apercu/Apercu-Light.svg#Apercu-Light) format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Apercu;
+    src: url(../fonts/apercu/Apercu-Regular.eot);
+    src: url(../fonts/apercu/Apercu-Regulard41d.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Regular.woff2) format("woff2"), url(../fonts/apercu/Apercu-Regular.woff) format("woff"), url(../fonts/apercu/Apercu-Regular.ttf) format("truetype"), url(../fonts/apercu/Apercu-Regular.svg#Apercu-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Apercu;
+    src: url(../fonts/apercu/Apercu-Bold.eot);
+    src: url(../fonts/apercu/Apercu-Boldd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/apercu/Apercu-Bold.woff2) format("woff2"), url(../fonts/apercu/Apercu-Bold.woff) format("woff"), url(../fonts/apercu/Apercu-Bold.ttf) format("truetype"), url(../fonts/apercu/Apercu-Bold.svg#Apercu-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fff;
+    color: #444452;
+    font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    width: 100%
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    min-height: 100vh;
+    padding: 0 5%;
+    position: relative;
+    z-index: 1
+}
+
+.intro__hello {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0
+}
+
+.intro__tagline {
+    font-weight: 300;
+    max-width: 700px;
+    font-size: 1.5rem;
+    margin: 0 0 2rem 0
+}
+
+.intro__tagline .name {
+    font-weight: 700
+}
+
+.intro__contact {
+    font-size: 1.25rem;
+    font-weight: 400
+}
+
+.cta-buttons-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+@media screen and (min-width: 1200px) {
+    .cta-buttons-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cta-buttons-container {
+        display: none
+    }
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem
+}
+
+.cta-button--primary {
+    background: #007bff;
+    color: white
+}
+
+.cta-button--secondary {
+    background: transparent;
+    color: #007bff;
+    border: 2px solid #007bff
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3)
+}
+
+.emoji {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: text-bottom
+}
+
+.wave-hand {
+    background-image: url(../img/emojis/wave.png)
+}
+
+.technologist {
+    background-image: url(../img/emojis/technologist.png)
+}
+
+.pointer {
+    background-image: url(../img/emojis/pointright.png);
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    vertical-align: text-bottom
+}
+
+@media screen and (max-width: 550px) {
+    .intro__hello {
+        font-size: 2rem
+    }
+    
+    .intro__tagline {
+        font-size: 1.25rem
+    }
+    
+    .intro__contact {
+        font-size: 1rem
+    }
+    
+    .pointer {
+        width: 25px;
+        height: 25px
+    }
+}

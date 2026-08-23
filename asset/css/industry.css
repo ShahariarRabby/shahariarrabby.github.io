@@ -1,0 +1,149 @@
+/* Industry portfolio refinement: recruiter-first, quieter, and layout-safe. */
+
+.industry-page {
+  --bg: #f7f8fa;
+  --bg-card: #ffffff;
+  --bg-card-hover: #ffffff;
+  --border: rgba(24, 34, 43, 0.11);
+  --border-hover: rgba(48, 73, 122, 0.28);
+  --fg: #17212b;
+  --fg-secondary: #4f5b66;
+  --fg-muted: #68747e;
+  --accent: #4c46b8;
+  --accent-2: #2479ae;
+  --accent-grad: linear-gradient(120deg, #4c46b8, #2479ae);
+  --accent-dim: rgba(76, 70, 184, 0.07);
+  font-size: 16px;
+}
+
+html[data-theme="dark"] .industry-page {
+  --bg: #0d1117;
+  --bg-card: #151b23;
+  --bg-card-hover: #18212b;
+  --border: rgba(255, 255, 255, 0.09);
+  --border-hover: rgba(165, 156, 255, 0.32);
+  --fg: #f2f4f7;
+  --fg-secondary: #b3bdc7;
+  --fg-muted: #87929e;
+  --accent: #a59cff;
+  --accent-2: #65c8f5;
+  --accent-grad: linear-gradient(120deg, #a59cff, #65c8f5);
+  --accent-dim: rgba(165, 156, 255, 0.1);
+}
+
+.industry-page .container { max-width: 1040px; }
+.industry-page .hero { padding-top: 104px; }
+
+.industry-page .aurora__blob { opacity: 0.18; }
+.industry-page .grain { display: none; }
+
+.industry-page .hero__name {
+  font-size: clamp(3.25rem, 8vw, 5rem);
+  letter-spacing: -0.045em;
+}
+
+.industry-page .hero__name-accent {
+  color: var(--accent);
+  background: none;
+}
+
+.industry-page .status-pill,
+.industry-page .theme-toggle {
+  box-shadow: none;
+}
+
+.industry-page .btn--primary {
+  box-shadow: 0 6px 18px rgba(76, 70, 184, 0.18);
+}
+
+.industry-page .btn--primary:hover {
+  box-shadow: 0 8px 22px rgba(76, 70, 184, 0.24);
+  transform: translateY(-1px);
+}
+
+.industry-page .stats {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  border-color: var(--border);
+  background: var(--border);
+}
+
+.industry-page .stat { backdrop-filter: none; }
+
+.industry-page .section { padding: 58px 0; }
+
+/* Four research themes read best as a balanced 2×2 evidence grid. */
+.industry-page #research .bento {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.industry-page #research .bento__card--wide {
+  grid-column: span 1;
+}
+
+.industry-page #research .bento__card {
+  min-height: 168px;
+}
+
+.industry-page .bento__card {
+  box-shadow: none;
+  backdrop-filter: none;
+  border-radius: 12px;
+}
+
+.industry-page .bento__card::before { display: none; }
+
+.industry-page .bento__card:hover {
+  transform: translateY(-1px);
+  border-color: var(--border-hover);
+  box-shadow: 0 10px 24px rgba(24, 34, 43, 0.055);
+}
+
+.industry-page #engineering .bento__card {
+  min-height: 250px;
+}
+
+.industry-page #engineering .bento__card--wide {
+  grid-column: span 2;
+}
+
+.industry-page #grants .bento__card {
+  display: block;
+  min-height: 0;
+}
+
+.industry-page #grants .card__subtitle {
+  margin-top: 5px;
+}
+
+.industry-page #grants .card__desc {
+  margin-top: 11px;
+}
+
+.industry-page .reveal {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.industry-page .contact__glow { opacity: 0.35; }
+
+@media (max-width: 720px) {
+  .industry-page { font-size: 16px; }
+  .industry-page .container { padding-inline: 24px; }
+  .industry-page .hero { padding-top: 82px; }
+  .industry-page .section { padding: 48px 0; }
+  .industry-page .stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .industry-page .stat:nth-child(5) { grid-column: 1 / -1; }
+  .industry-page #engineering .bento__card,
+  .industry-page #engineering .bento__card--wide {
+    min-height: 0;
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 560px) {
+  .industry-page .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .industry-page .stat:nth-child(5) { grid-column: 1 / -1; }
+  .industry-page #research .bento { grid-template-columns: 1fr; }
+  .industry-page #research .bento__card { min-height: 0; }
+}

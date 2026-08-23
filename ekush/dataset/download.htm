@@ -1,0 +1,111 @@
+<h1><a href="https://drive.google.com/open?id=16iwJuCFrHE0JGGfyuP3KSpvGu1p_SHd0" target="_blank">Download Ekush CSV</a></h1>
+<p>We converted the whole Ekush dataset into CSV format to reduce I/O time. To convert the csv into image see the code
+    bellow. </p>
+
+
+
+<style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #02b770;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+
+
+<div class="json">
+    <code>
+        # Library<br>
+        import pandas as pd<br>
+        import numpy as np<br>
+        <br>
+        # Load Data <br>
+        train = pd.read_csv("Data.csv")<br>
+        <br>
+        # Separating Data and Label<br>
+        Y_train = train["label"]<br>
+        X_train = train.drop(labels = ["label"],axis = 1)<br>
+        <br>
+        # Normalize the data<br>
+        X_train = X_train / 255.0<br>
+        <br>
+        # Reshape the array into 28 x 28 pixel <br>
+        X_train = X_train.values.reshape(-1,28,28,1)<br>
+    </code>
+
+
+    <!--<div class="jsonkfunc">encode</div><div class="jsonvtxt">Encode binary masks using RLE.</div>-->
+    <!--<div class="jsonkfunc">decode</div><div class="jsonvtxt">Decode binary masks encoded via RLE.</div>-->
+    <!--<div class="jsonkfunc">merge</div><div class="jsonvtxt">Compute union or intersection of encoded masks.</div>-->
+    <!--<div class="jsonkfunc">iou</div><div class="jsonvtxt">Compute intersection over union between masks.</div>-->
+    <!--<div class="jsonkfunc">area</div><div class="jsonvtxt">Compute area of encoded masks.</div>-->
+    <!--<div class="jsonkfunc">toBbox</div><div class="jsonvtxt">Get bounding boxes surrounding encoded masks.</div>-->
+    <!--<div class="jsonkfunc">frBbox</div><div class="jsonvtxt">Convert bounding boxes to encoded masks.</div>-->
+    <!--<div class="jsonkfunc">frPoly</div><div class="jsonvtxt">Convert polygon to encoded mask.</div>-->
+</div>
+
+<a href="https://drive.google.com/open?id=16iwJuCFrHE0JGGfyuP3KSpvGu1p_SHd0" target="_blank">
+<button class="button" style="vertical-align:middle" ><span>Download </span></button></a>
+
+<h1><i class="glyphicon glyphicon-th-list"></i> MatriVasha: compound character dataset
+    <!--<span class="fontBigger"><a href="#detection-leaderboard">Detection</a> | <a href="#keypoints-leaderboard">Keypoints</a> | <a href="#stuff-leaderboard">Stuff</a> | <a href="#panoptic-leaderboard">Panoptic</a> | <a href="#captions-leaderboard">Captions</a>-->
+<!--</span>-->
+</h1>
+<p>MatriVasha the largest dataset of handwritten Bangla compound characters for research
+on handwritten Bangla compound character recognition. The
+proposed dataset contains 120 different types of compound characters that consist of 306,464‬
+images written where 152,950 male and 153,514 female handwritten Bangla compound characters. This
+dataset can be used for other issues such as gender, age, district base handwriting research
+because the sample was collected that included district authenticity, age group, and an
+equal number of men and women. </p>
+
+<a href="https://drive.google.com/drive/folders/1kYt4a2oFxDDQCf_QCjkZxAtsaWgUmOxR?usp=sharing" target="_blank">
+<button class="button" style="vertical-align:middle" ><span>Download </span></button></a>
+
+<h1><i class="glyphicon glyphicon-th-list"></i> Cite The Work:
+    <!--<span class="fontBigger"><a href="#detection-leaderboard">Detection</a> | <a href="#keypoints-leaderboard">Keypoints</a> | <a href="#stuff-leaderboard">Stuff</a> | <a href="#panoptic-leaderboard">Panoptic</a> | <a href="#captions-leaderboard">Captions</a>-->
+<!--</span>-->
+</h1>
+<p>Rabby A.S.A., Haque S., Islam M.S., Abujar S., Hossain S.A. (2019) Ekush: A Multipurpose and Multitype Comprehensive
+    Database for Online Off-Line Bangla Handwritten Characters. In: Santosh K., Hegadi R. (eds) Recent Trends in Image
+    Processing and Pattern Recognition. RTIP2R 2018. Communications in Computer and Information Science, vol 1037.
+    Springer, Singapore</p>
+<b>Cite MatriVasha</b>
+<p>Ferdous, J., Karmaker, S., Rabby, A. S. A., and Hossain, S. A. (2020).   Matrivasha: A multipurpose comprehensive database for bangla handwritten compound characters. CoRR, abs/2005.02155</p>
+
+
