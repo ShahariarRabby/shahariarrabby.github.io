@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /asset/cdn-cgi/
+Disallow: /.screenshots/
+Disallow: /.opencode/
+
+Sitemap: https://rabby.dev/sitemap.xml

@@ -1,0 +1,14 @@
+# Shahariar Rabby
+
+> Official website of Shahariar Rabby, Computer Science PhD and Research Scientist at the University of Alabama at Birmingham.
+
+## Primary pages
+
+- [Academic profile](https://rabby.dev/): research, publications, teaching, awards, and curriculum vitae.
+- [Industry profile](https://rabby.dev/industry/): machine learning engineering, MLOps, and deployable AI systems.
+- [Research](https://rabby.dev/research/): medical imaging AI, thin-structure segmentation, document understanding, and responsible AI.
+- [Ekush dataset](https://rabby.dev/ekush/): Bangla handwritten character dataset for recognition research.
+
+## Identity
+
+Shahariar Rabby is a Computer Science PhD and Research Scientist whose work spans medical imaging, computer vision, document AI, and production machine learning.
