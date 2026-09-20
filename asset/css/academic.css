@@ -843,6 +843,18 @@ summary:focus-visible {
 
 /* Experience reads as a chronological CV, not a set of competing tiles. */
 .section--experience .section__sub { margin-top: 8px; }
+.experience-group { padding-top: 36px; }
+.experience-group + .experience-group {
+  margin-top: 42px;
+  border-top: 1px solid var(--border);
+}
+.experience-group__title {
+  margin: 0 0 18px;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
 .bento--experience {
   grid-template-columns: 1fr;
 }
@@ -1065,6 +1077,9 @@ summary:focus-visible {
     height: 38px;
     flex-basis: 38px;
   }
+  .experience-group { padding-top: 30px; }
+  .experience-group + .experience-group { margin-top: 34px; }
+  .experience-group__title { margin-bottom: 14px; font-size: 1.18rem; }
   #research-areas .bento__card,
   #research-areas .bento__card + .bento__card,
   #research-areas .bento__card:nth-child(even),
