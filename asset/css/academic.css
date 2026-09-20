@@ -841,6 +841,33 @@ summary:focus-visible {
 .bento__card:nth-child(odd) { padding-right: 28px; }
 .bento__card--wide { grid-column: auto; }
 
+/* Experience reads as a chronological CV, not a set of competing tiles. */
+.section--experience .section__sub { margin-top: 8px; }
+.bento--experience {
+  grid-template-columns: 1fr;
+}
+.bento--experience .bento__card,
+.bento--experience .bento__card + .bento__card,
+.bento--experience .bento__card:nth-child(even),
+.bento--experience .bento__card:nth-child(odd) {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: start;
+  min-height: 0;
+  padding: 28px 0;
+  border-left: 0;
+}
+.bento--experience .icon {
+  margin: 1px 0 0;
+}
+.bento--experience .card__title { margin-bottom: 5px; }
+.bento--experience .card__subtitle { margin-bottom: 10px; }
+.bento--experience .bento__card:hover {
+  background: color-mix(in srgb, var(--accent) 3%, transparent);
+  box-shadow: none;
+}
+
 #research-areas .bento {
   border: 1px solid var(--border);
   border-bottom: 0;
@@ -1024,6 +1051,19 @@ summary:focus-visible {
     min-height: 0;
     padding: 23px 0 25px;
     border-left: 0;
+  }
+  .bento--experience .bento__card,
+  .bento--experience .bento__card + .bento__card,
+  .bento--experience .bento__card:nth-child(even),
+  .bento--experience .bento__card:nth-child(odd) {
+    grid-template-columns: 38px minmax(0, 1fr);
+    column-gap: 14px;
+    padding: 23px 0 25px;
+  }
+  .bento--experience .icon {
+    width: 38px;
+    height: 38px;
+    flex-basis: 38px;
   }
   #research-areas .bento__card,
   #research-areas .bento__card + .bento__card,
