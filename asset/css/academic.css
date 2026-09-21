@@ -1099,6 +1099,56 @@ summary:focus-visible {
   }
 }
 
+/* Release QA: section headers use one alignment and evidence icons use one
+   academic accent instead of product-style per-card colors. */
+.section__head {
+  display: block;
+}
+.section__sub,
+.section__lead {
+  max-width: 820px;
+  margin-top: 8px;
+}
+[id] { scroll-margin-top: 84px; }
+.bento.bento--evidence .icon {
+  color: var(--accent);
+  background: var(--accent-dim);
+  border-color: color-mix(in srgb, var(--accent) 28%, var(--border));
+}
+
+.record-disclosure {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+.record-disclosure > summary {
+  padding: 17px 20px;
+  cursor: pointer;
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.record-disclosure__body {
+  padding: 0 18px 18px;
+}
+.record-disclosure__body .pub-year:last-child { margin-bottom: 0; }
+
+@media (max-width: 590px) {
+  .acad-header { padding-bottom: 30px; }
+  .headshot { width: min(48vw, 176px); }
+  .stats { margin-top: 34px; }
+  .section { padding-block: 44px; }
+  .bento--experience .bento__card,
+  .bento--experience .bento__card + .bento__card,
+  .bento--experience .bento__card:nth-child(even),
+  .bento--experience .bento__card:nth-child(odd) {
+    padding-block: 18px 20px;
+  }
+  .bento--experience .card__desc { line-height: 1.56; }
+  .record-disclosure > summary { padding: 16px 17px; }
+  .record-disclosure__body { padding: 0 12px 12px; }
+}
+
 /* Final visual QA pass: one calm visual language for faculty evidence. */
 .nav-label--short { display: none; }
 .program__directions {
@@ -1194,5 +1244,11 @@ summary:focus-visible {
     min-height: 0;
     padding: 23px 22px 25px;
     border-left: 0;
+  }
+  .section--experience .bento--experience .bento__card,
+  .section--experience .bento--experience .bento__card + .bento__card,
+  .section--experience .bento--experience .bento__card:nth-child(even),
+  .section--experience .bento--experience .bento__card:nth-child(odd) {
+    padding-block: 18px 20px;
   }
 }
