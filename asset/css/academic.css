@@ -897,6 +897,23 @@ summary:focus-visible {
   border-color: var(--border);
 }
 
+/* Grants, service, and datasets are the same kind of supporting evidence as
+   research areas: use the same calm, bordered list rather than legacy cards. */
+.bento--evidence {
+  border: 1px solid var(--border);
+  border-bottom: 0;
+}
+.bento--evidence .bento__card,
+.bento--evidence .bento__card + .bento__card,
+.bento--evidence .bento__card:nth-child(even),
+.bento--evidence .bento__card:nth-child(odd) {
+  padding: 28px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+}
+.bento--evidence .bento__card:hover { background: transparent; border-color: var(--border); box-shadow: none; }
+.bento--evidence a.bento__card:hover { background: color-mix(in srgb, var(--accent) 4%, transparent); }
+
 .card__title {
   margin-bottom: 4px;
   font-family: var(--font-display);
@@ -1088,6 +1105,12 @@ summary:focus-visible {
   #research-areas .bento__card + .bento__card,
   #research-areas .bento__card:nth-child(even),
   #research-areas .bento__card:nth-child(odd) {
+    padding: 23px 22px 25px;
+  }
+  .bento--evidence .bento__card,
+  .bento--evidence .bento__card + .bento__card,
+  .bento--evidence .bento__card:nth-child(even),
+  .bento--evidence .bento__card:nth-child(odd) {
     padding: 23px 22px 25px;
   }
   .pub--rich { grid-template-columns: 1fr; gap: 5px; }
