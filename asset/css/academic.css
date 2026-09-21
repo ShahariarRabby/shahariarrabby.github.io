@@ -880,40 +880,6 @@ summary:focus-visible {
   box-shadow: none;
 }
 
-#research-areas .bento {
-  border: 1px solid var(--border);
-  border-bottom: 0;
-}
-
-#research-areas .bento__card,
-#research-areas .bento__card + .bento__card,
-#research-areas .bento__card:nth-child(even),
-#research-areas .bento__card:nth-child(odd) {
-  padding: 28px;
-}
-
-#research-areas .bento__card:hover {
-  background: transparent;
-  border-color: var(--border);
-}
-
-/* Grants, service, and datasets are the same kind of supporting evidence as
-   research areas: use the same calm, bordered list rather than legacy cards. */
-.bento--evidence {
-  border: 1px solid var(--border);
-  border-bottom: 0;
-}
-.bento--evidence .bento__card,
-.bento--evidence .bento__card + .bento__card,
-.bento--evidence .bento__card:nth-child(even),
-.bento--evidence .bento__card:nth-child(odd) {
-  padding: 28px;
-  border: 0;
-  border-bottom: 1px solid var(--border);
-}
-.bento--evidence .bento__card:hover { background: transparent; border-color: var(--border); box-shadow: none; }
-.bento--evidence a.bento__card:hover { background: color-mix(in srgb, var(--accent) 4%, transparent); }
-
 .card__title {
   margin-bottom: 4px;
   font-family: var(--font-display);
@@ -1101,18 +1067,6 @@ summary:focus-visible {
   .experience-group { padding-top: 30px; }
   .experience-group + .experience-group { margin-top: 34px; }
   .experience-group__title { margin-bottom: 14px; font-size: 1.18rem; }
-  #research-areas .bento__card,
-  #research-areas .bento__card + .bento__card,
-  #research-areas .bento__card:nth-child(even),
-  #research-areas .bento__card:nth-child(odd) {
-    padding: 23px 22px 25px;
-  }
-  .bento--evidence .bento__card,
-  .bento--evidence .bento__card + .bento__card,
-  .bento--evidence .bento__card:nth-child(even),
-  .bento--evidence .bento__card:nth-child(odd) {
-    padding: 23px 22px 25px;
-  }
   .pub--rich { grid-template-columns: 1fr; gap: 5px; }
   .pub__year { padding-top: 0; }
 }
@@ -1186,4 +1140,59 @@ summary:focus-visible {
 @media (max-width: 340px) {
   .site-nav__inner { gap: 7px; }
   .site-nav__links { gap: 5px; font-size: 0.72rem; }
+}
+
+/* One definitive evidence-grid component. Used by Research Areas, Grants,
+   Academic Service, and Research Artifacts so their geometry and interaction
+   cannot diverge through section-specific cascade rules. */
+.bento.bento--evidence {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-bottom: 0;
+  background: transparent;
+}
+.bento.bento--evidence > .bento__card,
+.bento.bento--evidence > .bento__card + .bento__card,
+.bento.bento--evidence > .bento__card:nth-child(odd),
+.bento.bento--evidence > .bento__card:nth-child(even) {
+  display: block;
+  grid-column: auto;
+  min-height: 176px;
+  padding: 28px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+  transition: background-color 180ms var(--ease), box-shadow 180ms var(--ease);
+}
+.bento.bento--evidence > .bento__card:nth-child(even) {
+  border-left: 1px solid var(--border);
+}
+.bento.bento--evidence > .bento__card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  border-left: 0;
+}
+@media (hover: hover) and (pointer: fine) {
+  .bento.bento--evidence > .bento__card:hover {
+    border-color: var(--border);
+    background: color-mix(in srgb, var(--accent) 4%, transparent);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 15%, transparent);
+    transform: none;
+  }
+}
+@media (max-width: 590px) {
+  .bento.bento--evidence { grid-template-columns: 1fr; }
+  .bento.bento--evidence > .bento__card,
+  .bento.bento--evidence > .bento__card + .bento__card,
+  .bento.bento--evidence > .bento__card:nth-child(odd),
+  .bento.bento--evidence > .bento__card:nth-child(even) {
+    grid-column: 1;
+    min-height: 0;
+    padding: 23px 22px 25px;
+    border-left: 0;
+  }
 }
