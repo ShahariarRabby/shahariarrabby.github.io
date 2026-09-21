@@ -25,7 +25,7 @@
   <link rel="preload" as="image" href="/asset/img/headshot/headshot-rabby-600.webp" type="image/webp" imagesrcset="/asset/img/headshot/headshot-rabby-400.webp 400w, /asset/img/headshot/headshot-rabby-600.webp 600w" imagesizes="(max-width: 590px) 200px, (max-width: 760px) 210px, 250px">
 
   <link rel="stylesheet" href="asset/css/main.css">
-  <link rel="stylesheet" href="asset/css/academic.css?v=20260920-2">
+  <link rel="stylesheet" href="asset/css/academic.css?v=20260920-3">
 
   <script>document.documentElement.setAttribute("data-theme", "light");</script>
 
@@ -82,7 +82,7 @@
       </a>
       <div class="site-nav__links">
         <a href="#program">Research</a>
-        <a href="#publications">Publications</a>
+        <a href="#publications"><span class="nav-label--full">Publications</span><span class="nav-label--short">Papers</span></a>
         <a href="#teaching">Teaching</a>
         <a href="/asset/docs/Teachneg_CV.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
       </div>
@@ -155,20 +155,24 @@
           <p>
             My work sits at the intersection of <strong>representation learning for thin, elongated, and minority-class structures</strong> and <strong>systems that are deployed and validated in the field</strong> — clinical and industrial, not just benchmarked.
           </p>
-          <p>
-            The current thread began with a clinical question — can a lightweight model detect COPD from a single inspiratory chest CT, reliably across institutions? — and has driven a sequence of methods (COPDxNet, STRIPE, THREAD, dCrack) that progressively isolate what makes thin-structure segmentation hard: topology, connectivity, and class imbalance, under tight memory and latency budgets.
-          </p>
-          <p>
-            <strong>A five-year research plan.</strong> As a Research Scientist at UAB, this line is now active: I am building <strong>3D pulmonary fissure segmentation</strong> and an algorithmic <strong>fissure-integrity score</strong> that quantifies the completeness and connectivity of fissures across the lung. The integrity score is the foundation of the plan; over the next several years the program extends from it in three directions — deeper into the clinical question, to smaller structures, and across domains:
-          </p>
-          <ol class="program__list">
-            <li><strong>Toward a clinical biomarker.</strong> Once the integrity score is established, pair it with longitudinal CT to test whether emphysema progresses differently near incomplete or damaged fissures — building on the voxel-level progression studies already funded under the NIH R01, combined with my fissure expertise — and correlate the score's measures of missing surface, gaps, fragmentation, and completeness with clinical variables (FEV1, GOLD severity, emphysema burden, air trapping), testing whether fissure integrity itself is a useful COPD measurement.</li>
-            <li><strong>To smaller structures.</strong> Generalize the thin-structure methods to finer, smaller targets in medical imaging — for example, mucus plugs in the airways — where the same topology- and connectivity-preservation principles apply at a different scale.</li>
-            <li><strong>Across domains.</strong> Extend the topology-preserving methods demonstrated on infrastructure cracks (dCrack) toward road and structural safety in collaboration with civil engineers, using the cross-domain transfer already shown (crack → retinal vessels) as evidence the methods generalize.</li>
-          </ol>
-          <p>
-            <strong>Foundations.</strong> Before the clinical thread, I built a substantial body of work in low-resource language processing and document understanding — Bangla OCR, handwriting, and sign-language datasets (Ekush, ISHARA-LIPI, Sankhya). That line trained the skills this program relies on: constructing large, carefully annotated datasets, and designing models that stay accurate on rare, minority-class inputs. Several of these datasets are now used by others, and the document-understanding methods feed directly into the vision work above.
-          </p>
+          <p>The current thread began with lightweight, multicenter COPD detection and now focuses on <strong>3D pulmonary fissure segmentation</strong> and a <strong>fissure-integrity score</strong> for studying completeness and connectivity across the lung.</p>
+          <div class="program__directions" aria-label="Research program directions">
+            <div><strong>Clinical biomarkers</strong><span>Connect fissure integrity with longitudinal CT and COPD outcomes.</span></div>
+            <div><strong>Smaller structures</strong><span>Generalize topology-preserving methods to finer medical-imaging targets.</span></div>
+            <div><strong>Cross-domain systems</strong><span>Extend validated methods from clinical imaging to structural safety.</span></div>
+          </div>
+          <details class="program__details">
+            <summary>Read the full five-year research plan</summary>
+            <div>
+              <p>As a Research Scientist at UAB, this line is active through 3D pulmonary fissure segmentation and an algorithmic fissure-integrity score. The program extends from it in three directions:</p>
+              <ol class="program__list">
+                <li><strong>Toward a clinical biomarker.</strong> Pair the integrity score with longitudinal CT to study emphysema progression near incomplete or damaged fissures, and correlate missing surface, gaps, fragmentation, and completeness with clinical variables including FEV1, GOLD severity, emphysema burden, and air trapping.</li>
+                <li><strong>To smaller structures.</strong> Generalize thin-structure methods to finer medical-imaging targets, including mucus plugs in the airways, where topology and connectivity preservation remain central.</li>
+                <li><strong>Across domains.</strong> Extend topology-preserving methods demonstrated on infrastructure cracks toward road and structural safety in collaboration with civil engineers.</li>
+              </ol>
+              <p><strong>Foundations.</strong> Earlier work in low-resource language processing and document understanding — including Bangla OCR, handwriting, and sign-language datasets — developed the dataset-design and rare-class modeling skills that support this program.</p>
+            </div>
+          </details>
         </div>
       </section>
 
@@ -188,7 +192,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="8"/><path d="m9 12 2 2 4-4"/></svg>
             </span>
             <div>
-              <h3 class="card__title">Research Scientist</h3>
+              <h4 class="card__title">Research Scientist</h4>
               <div class="card__subtitle">University of Alabama at Birmingham · Jun 2026 – Present</div>
               <div class="card__desc">Center for Lung Analytics &amp; Imaging Research (CLAIR) and Knowledge Discovery &amp; Data Mining Lab. Leading deployable medical-imaging AI, including multicenter COPD detection, pulmonary fissure segmentation, and fissure-integrity analysis under NIH/NHLBI R01 HL151421.</div>
             </div>
@@ -198,7 +202,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M9 7h7M9 11h7"/></svg>
             </span>
             <div>
-              <h3 class="card__title">Graduate Research Assistant</h3>
+              <h4 class="card__title">Graduate Research Assistant</h4>
               <div class="card__subtitle">University of Alabama at Birmingham · Aug 2021 – May 2026</div>
               <div class="card__desc">CLAIR and Knowledge Discovery &amp; Data Mining Lab. Led architecture design and multicenter validation for COPDxNet; independently designed STRIPE; developed topology-preserving thin-structure methods, benchmark datasets, and scalable inference infrastructure.</div>
             </div>
@@ -208,26 +212,26 @@
 
         <div class="experience-group" id="teaching">
           <h3 class="experience-group__title reveal">Teaching &amp; Mentoring</h3>
-          <div class="bento">
+          <div class="bento bento--experience">
             <div class="bento__card reveal" style="--d:0ms">
               <span class="icon icon--green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
-              <div><h3 class="card__title">Credentialed Course Instructor – Medicine</h3><div class="card__subtitle">UAB Heersink School of Medicine · Fall 2026</div><div class="card__desc">Teaching AIM 646: LLM Development in Medicine (3-credit graduate course). Topics: tokenization, text classification, sentiment analysis, prompt-based applications, fine-tuning for domain-specific healthcare use cases, and responsible AI/ethics/privacy/regulatory. In-person + online sections.</div></div>
+              <div><h4 class="card__title">Credentialed Course Instructor – Medicine</h4><div class="card__subtitle">UAB Heersink School of Medicine · Fall 2026</div><div class="card__desc">Teaching AIM 646: LLM Development in Medicine (3-credit graduate course). Topics: tokenization, text classification, sentiment analysis, prompt-based applications, fine-tuning for domain-specific healthcare use cases, and responsible AI/ethics/privacy/regulatory. In-person + online sections.</div></div>
             </div>
             <div class="bento__card reveal" style="--d:80ms">
               <span class="icon icon--sky"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
-              <div><h3 class="card__title">Lecturer, Daffodil International University</h3><div class="card__subtitle">2019–2020 · 50+ students/semester</div><div class="card__desc">Taught CSE 412 (Artificial Intelligence) and CSE 413L (AI Lab). Shifted from theory-heavy lectures to project-based learning — Python/PyTorch, debugging via loss curves, end-to-end prototypes.</div></div>
+              <div><h4 class="card__title">Lecturer, Daffodil International University</h4><div class="card__subtitle">2019–2020 · 50+ students/semester</div><div class="card__desc">Taught CSE 412 (Artificial Intelligence) and CSE 413L (AI Lab). Shifted from theory-heavy lectures to project-based learning — Python/PyTorch, debugging via loss curves, end-to-end prototypes.</div></div>
             </div>
             <div class="bento__card reveal" style="--d:80ms">
               <span class="icon icon--violet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
-              <div><h3 class="card__title">Mentored 13 undergrads</h3><div class="card__subtitle">To First-Author Publications</div><div class="card__desc">IEEE ICCCNT, IEEE SMART, IEEE ICICCS, Springer IEMIS/CMDE/SCTA. Multiple mentees now pursuing PhDs at U.S. institutions. Research Supervisor, DIU NLP &amp; ML Lab (2019–2021).</div></div>
+              <div><h4 class="card__title">Mentored 13 undergrads</h4><div class="card__subtitle">To First-Author Publications</div><div class="card__desc">IEEE ICCCNT, IEEE SMART, IEEE ICICCS, Springer IEMIS/CMDE/SCTA. Multiple mentees now pursuing PhDs at U.S. institutions. Research Supervisor, DIU NLP &amp; ML Lab (2019–2021).</div></div>
             </div>
             <div class="bento__card reveal" style="--d:160ms">
               <span class="icon icon--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
-              <div><h3 class="card__title">Courses prepared to teach</h3><div class="card__subtitle">Graduate &amp; Undergraduate</div><div class="card__desc">Building LLMs for Medical Data · Deployable AI Systems · Medical Image Analysis · Deep Learning for CV · Efficient/Scalable ML · Intro to ML/AI.</div></div>
+              <div><h4 class="card__title">Courses prepared to teach</h4><div class="card__subtitle">Graduate &amp; Undergraduate</div><div class="card__desc">Building LLMs for Medical Data · Deployable AI Systems · Medical Image Analysis · Deep Learning for CV · Efficient/Scalable ML · Intro to ML/AI.</div></div>
             </div>
             <div class="bento__card reveal" style="--d:240ms">
               <span class="icon icon--rose"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
-              <div><h3 class="card__title">Workshop organizer</h3><div class="card__subtitle">WVLL @ WACV &amp; WVLL 2026</div><div class="card__desc">Organized and co-instructed the Vision-Based Understanding for Low-Resource Languages workshop at IEEE/CVF WACV 2024; organizer, WVLL 2026 at University of North Texas (IEEE submission pending).</div></div>
+              <div><h4 class="card__title">Workshop organizer</h4><div class="card__subtitle">WVLL @ WACV &amp; WVLL 2026</div><div class="card__desc">Organized and co-instructed the Vision-Based Understanding for Low-Resource Languages workshop at IEEE/CVF WACV 2024; organizer, WVLL 2026 at University of North Texas (IEEE submission pending).</div></div>
             </div>
           </div>
         </div>
@@ -237,15 +241,15 @@
           <div class="bento bento--experience">
             <div class="bento__card reveal" style="--d:0ms">
               <span class="icon icon--sky"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>
-              <div><h3 class="card__title">Senior ML Engineer / Technical Lead</h3><div class="card__subtitle">Apurba Technologies · Part-Time · Nov 2025 – Present · Remote</div><div class="card__desc">Kagoj.ai (Bangladesh Government national AI platform): fine-tuned a Qwen2.5 VLM via LoRA with FP8 quantization and Flash Attention 2; deployed via vLLM on a single L40S GPU serving 30K daily active users at 1K–2K peak RPS (p50=84ms, p95=91ms). Led a 13-engineer team re-architecting the platform into event-driven microservices (Kafka). Architected a HIPAA-compliant RAG pipeline with PHI handling for automated medical bill auditing at Dorsal.fyi (acquired by Promise, Feb 2026).</div></div>
+              <div><h4 class="card__title">Senior ML Engineer / Technical Lead</h4><div class="card__subtitle">Apurba Technologies · Part-Time · Nov 2025 – Present · Remote</div><div class="card__desc">Kagoj.ai (Bangladesh Government national AI platform): fine-tuned a Qwen2.5 VLM via LoRA with FP8 quantization and Flash Attention 2; deployed via vLLM on a single L40S GPU serving 30K daily active users at 1K–2K peak RPS (p50=84ms, p95=91ms). Led a 13-engineer team re-architecting the platform into event-driven microservices (Kafka). Architected a HIPAA-compliant RAG pipeline with PHI handling for automated medical bill auditing at Dorsal.fyi (acquired by Promise, Feb 2026).</div></div>
             </div>
             <div class="bento__card reveal" style="--d:80ms">
               <span class="icon icon--violet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span>
-              <div><h3 class="card__title">ML Engineer → Team Lead</h3><div class="card__subtitle">Apurba Technologies · Oct 2019 – Aug 2021</div><div class="card__desc">Built the multi-stage CNN OCR pipeline for ocr.bangla.gov.bd, Bangladesh Government's national Bangla document digitization platform. Deployed Triton Server with ONNX for an 18.6× inference speedup; grew the team from 3 to 10+ engineers; scaled to 10,000+ daily requests at 99.5% uptime.</div></div>
+              <div><h4 class="card__title">ML Engineer → Team Lead</h4><div class="card__subtitle">Apurba Technologies · Oct 2019 – Aug 2021</div><div class="card__desc">Built the multi-stage CNN OCR pipeline for ocr.bangla.gov.bd, Bangladesh Government's national Bangla document digitization platform. Deployed Triton Server with ONNX for an 18.6× inference speedup; grew the team from 3 to 10+ engineers; scaled to 10,000+ daily requests at 99.5% uptime.</div></div>
             </div>
             <div class="bento__card reveal" style="--d:160ms">
               <span class="icon icon--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
-              <div><h3 class="card__title">AI Engineer</h3><div class="card__subtitle">Genex Digital · Contract · Apr 2019 – Oct 2019</div><div class="card__desc">Developed MIRA (telecom chatbot, IBM-mentored) and Sarah (multilingual banking chatbot in Bangla, English, and Banglish).</div></div>
+              <div><h4 class="card__title">AI Engineer</h4><div class="card__subtitle">Genex Digital · Contract · Apr 2019 – Oct 2019</div><div class="card__desc">Developed MIRA (telecom chatbot, IBM-mentored) and Sarah (multilingual banking chatbot in Bangla, English, and Banglish).</div></div>
             </div>
           </div>
         </div>
