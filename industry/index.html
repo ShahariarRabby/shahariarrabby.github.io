@@ -30,7 +30,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="../asset/css/main.css">
-  <link rel="stylesheet" href="../asset/css/industry.css?v=20260823-4">
+  <link rel="stylesheet" href="../asset/css/industry.css?v=20261013-1">
 
   <script type="application/ld+json">
   {
@@ -273,7 +273,7 @@
         </div>
 
         <div class="bento">
-          <a class="bento__card bento__card--wide reveal" style="--d:0ms" href="https://github.com/shahariarrabby" target="_blank" rel="noopener">
+          <a class="bento__card bento__card--wide reveal" style="--d:0ms" href="https://kagoj.ai/" target="_blank" rel="noopener">
             <span class="icon icon--violet">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2M20 14h2M15 13v2M9 13v2"/></svg>
             </span>
@@ -314,14 +314,82 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 7-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></svg>
             </span>
             <div>
-              <div class="card__title">ocr.bangla.gov.bd</div>
-              <div class="card__subtitle">Bangladesh National OCR Platform</div>
+              <div class="card__title">Borno</div>
+              <div class="card__subtitle">Bangladesh National OCR Platform · ocr.bangla.gov.bd</div>
               <div class="card__desc">Multi-stage CNN OCR on Triton + ONNX: <strong>18.6× speedup</strong>, 10K+ daily requests, 99.5% uptime. <span class="card__link">Live →</span></div>
               <div class="tags-line">
                 <span class="tag">Triton</span><span class="tag">ONNX</span><span class="tag">CNN</span>
               </div>
             </div>
           </a>
+        </div>
+      </section>
+
+      <!-- Selected system details -->
+      <section class="section case-studies" id="project-details" aria-labelledby="project-details-title">
+        <div class="section__head reveal">
+          <div>
+            <h2 class="section__title" id="project-details-title">Project details</h2>
+            <p class="section__lead">Selected systems, with simplified workflows and reported evaluation results.</p>
+          </div>
+        </div>
+        <div class="case-grid">
+          <article class="case-card reveal">
+            <div class="case-card__head">
+              <div>
+                <p class="case-kicker">Document AI · Production platform</p>
+                <h3><a href="https://kagoj.ai/" target="_blank" rel="noopener">Kagoj.ai</a></h3>
+                <p class="case-subtitle">Bangladesh Government AI Platform</p>
+              </div>
+              <span class="case-mark" aria-hidden="true">K</span>
+            </div>
+            <p class="case-summary">Fine-tuned Qwen2.5 VLM using LoRA, FP8 quantization, and Flash Attention 2, served with vLLM on a single NVIDIA L40S GPU.</p>
+            <details class="case-disclosure">
+              <summary>View system details</summary>
+              <div class="case-panel">
+                <h4>Illustrative document-AI workflow</h4>
+                <p class="case-note">Conceptual flow only; platform request-handling components are not specified here.</p>
+                <ol class="workflow" aria-label="Illustrative Kagoj.ai workflow">
+                  <li><span class="workflow__step">01</span><strong>Document input</strong><span>Document image or page</span></li>
+                  <li><span class="workflow__step">02</span><strong>Qwen2.5-VL</strong><span>Document understanding</span></li>
+                  <li><span class="workflow__step">03</span><strong>Structured output</strong><span>Model response</span></li>
+                </ol>
+                <div class="case-facts">
+                  <section><h4>My role &amp; implementation</h4><p>Fine-tuned the vision-language model with LoRA and optimized inference using FP8 quantization and Flash Attention 2. Deployed model serving through vLLM on one NVIDIA L40S GPU.</p></section>
+                  <section><h4>Reported scale</h4><p><strong>30,000 daily active users</strong> and <strong>1–2K peak requests per second</strong> are platform-wide figures. They describe platform traffic, not GPU inference throughput.</p></section>
+                </div>
+              </div>
+            </details>
+          </article>
+
+          <article class="case-card reveal" style="--d:100ms">
+            <div class="case-card__head">
+              <div>
+                <p class="case-kicker">Medical imaging · Multicenter evaluation</p>
+                <h3>COPDxNet</h3>
+                <p class="case-subtitle">COPD detection from chest CT</p>
+              </div>
+              <span class="case-mark case-mark--clinical" aria-hidden="true">CT</span>
+            </div>
+            <p class="case-summary">A lightweight 3D CNN evaluated using COPDGene development data and external cohorts.</p>
+            <details class="case-disclosure">
+              <summary>View system details</summary>
+              <div class="case-panel">
+                <h4>Conceptual evaluation workflow</h4>
+                <p class="case-note">Simplified study flow; this is not a deployment diagram or an exact model architecture.</p>
+                <ol class="workflow workflow--clinical" aria-label="Conceptual COPDxNet study workflow">
+                  <li><span class="workflow__step">01</span><strong>Chest CT</strong><span>Study scans</span></li>
+                  <li><span class="workflow__step">02</span><strong>3D CNN</strong><span>COPDxNet model</span></li>
+                  <li><span class="workflow__step">03</span><strong>Model output</strong><span>Detection score</span></li>
+                  <li><span class="workflow__step">04</span><strong>Cohort evaluation</strong><span>Internal + external</span></li>
+                </ol>
+                <div class="case-facts">
+                  <section><h4>My role</h4><p>Led architecture design and multicenter evaluation for COPDxNet.</p></section>
+                  <section><h4>Reported evaluation</h4><p>13,043 COPDGene CT scans from 21 centers. AUC: <strong>0.92</strong> standard-dose and <strong>0.88</strong> low-dose COPDGene scans; external AUC: <strong>0.92</strong> on SPIROMICS and <strong>0.82</strong> on NLST.</p><p class="case-status">Manuscript under review at <em>The Lancet Digital Health</em>.</p></section>
+                </div>
+              </div>
+            </details>
+          </article>
         </div>
       </section>
 
@@ -383,7 +451,7 @@
               <div class="timeline__title">ML Engineer → Team Lead</div>
               <div class="timeline__org">Apurba Technologies</div>
               <div class="timeline__date">Oct 2019 – Aug 2021</div>
-              <p class="timeline__desc">ocr.bangla.gov.bd. Triton + ONNX: 18.6× speedup. Grew the team from 3 to 10+, 10K+ daily requests, 99.5% uptime.</p>
+              <p class="timeline__desc">Borno (ocr.bangla.gov.bd). Triton + ONNX: 18.6× speedup. Grew the team from 3 to 10+, 10K+ daily requests, 99.5% uptime.</p>
             </div>
           </div>
           <div class="timeline__item">
